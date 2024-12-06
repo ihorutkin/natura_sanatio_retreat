@@ -1,0 +1,32 @@
+.individual_consultation > p{
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.individual_consultation_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.individual_consultation_content{
+    flex-basis: 45%;
+}
+
+.individual_consultation_content > li{
+    padding: 1rem 0;
+}
+
+.individual_consultation_img{
+    flex-basis: 50%;
+    background-color: #e5e5e5;
+    height: 500px;
+    background-image: url("../../../media/img/recovery_plan/on_site/medical_exam.jpg");
+    background-size: cover;
+    background-position: center;
+}

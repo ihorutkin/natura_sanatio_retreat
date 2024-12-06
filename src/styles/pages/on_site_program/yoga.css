@@ -1,0 +1,60 @@
+.yoga{
+    margin-bottom: 4rem;
+}
+
+.yoga > p{
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yoga_images{
+    position: relative;
+    max-width: 1000px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yoga_img1{
+    background-image: url("../../../media/img/recovery_plan/on_site/yoga1.jpg");
+    background-size: cover;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 3rem;
+    left: 3rem;
+    z-index: 4;
+}
+
+.yoga_img2{
+    background-image: url("../../../media/img/recovery_plan/on_site/yoga2.jpg");
+    background-size: cover;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    right: 2rem;
+}
+
+.yoga_img3{
+    background-image: url("../../../media/img/recovery_plan/on_site/yoga3.jpg");
+    background-size: cover;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    bottom: 4rem;
+    left: 0;
+    z-index: 3;
+}
+
+.yoga_img4{
+    background-image: url("../../../media/img/recovery_plan/on_site/yoga4.jpg");
+    background-size: cover;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    bottom: 0;
+    right: 0;
+}

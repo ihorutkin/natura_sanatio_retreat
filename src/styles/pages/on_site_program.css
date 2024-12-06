@@ -1,0 +1,21 @@
+.on_site_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    overflow: hidden;
+}
+
+.on_site_container > h2{
+    font-family: "Rufina", serif;
+    font-size: 46px;
+    line-height: 0;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.block_title{
+    text-align: center;
+    margin: 4rem 0;
+    z-index: 10;
+}

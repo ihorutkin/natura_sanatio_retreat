@@ -1,0 +1,8 @@
+.meditations{
+    background-color: var(--light-gray1-color);
+    color: var(--dark-green-color);
+}
+
+.meditations > p{
+    text-align: center;
+}

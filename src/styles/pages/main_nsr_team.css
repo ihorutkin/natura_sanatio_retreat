@@ -1,0 +1,67 @@
+/* .main_nsr_team_container{
+    margin-top: 10rem;
+} */
+
+.main_nsr_team_container > h2{
+    font-family: "Rufina", serif;
+    font-size: 46px;
+    line-height: 0;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.main_nsr_team{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.teammate{
+    flex-basis: 25%;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    transition: all .3s linear;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.teammate:hover{
+    filter: grayscale(0);
+    transition: all .3s linear;
+}
+
+.maryana{
+    background-image: url("../../media/img/NSR_team/maryana_hudyma.jpg");
+}
+
+.valentyna{
+    background-image: url("../../media/img//NSR_team/valentyna.jpg");
+}
+
+.prasad{
+    background-image: url("../../media/img/NSR_team/prasad.jpg");
+}
+
+.artemyi{
+    background-image: url("../../media/img/NSR_team/artemyi.jpg");
+}
+
+.teammate .name {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Темный полупрозрачный фон */
+    color: white;
+    padding: 10px 0;
+    font-size: 1.2em;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.teammate:hover .name {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -1,0 +1,36 @@
+.group_therapy{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2rem;
+}
+
+.group_therapy > p{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.therapies_types{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.column{
+    background-color: var(--ligth-green-color);
+    padding: 2rem;
+    flex-basis: 44%;
+    flex: 1 1 300px;
+}
+
+.therapies_item{
+    padding: 1rem 0;
+}
+
+.therapies_item > span{
+    font-weight: bold;
+}
