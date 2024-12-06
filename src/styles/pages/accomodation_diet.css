@@ -1,0 +1,125 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+  
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+  
+.swiper-slide {
+    height: 100vh;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0 4rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-gray2-color);
+}
+
+@keyframes fadeIn{
+    0%{
+        transform: translateY(1rem) scale(0);
+        opacity: 0;
+    }
+}
+
+.content > h2{
+    position: relative;
+    font-family: "Rufina", serif;
+    font-size: 46px;
+    line-height: 0;
+    text-align: center;
+    margin: 4rem 0;
+    animation: fadeIn 0.4s cubic-bezier(.54, 1.3, .63, 1.34) .2s backwards;
+}
+
+.slide::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.slide1{
+    background-image: url("../../media/img/accomodation/accomodation.jpg");
+    background-size: cover;
+}
+
+.slide2{
+    background-image: url("../../media/img/accomodation/residence.jpg");
+    background-size: cover;
+}
+
+.slide3{
+    background-image: url("../../media/img/accomodation/food.jpg");
+    background-size: cover;
+}
+
+.slide3::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+    padding: 10px;
+    background-color: rgba(216, 216, 216, 0.3);
+    color: #e6e6e6;
+}
+
+.accomodation_overview{
+    margin: 4rem auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accomodation_content{
+    flex-basis: 50%;
+}
+
+.accomodation_content > h2{
+    font-family: "Rufina", serif;
+    font-size: 46px;
+    line-height: 0;
+    margin: 4rem 0;
+}
+
+.accomodation_img{
+    flex-basis: 50%;
+    background-image: url("../../media/img/accomodation/accomodation_img.jpg");
+    background-size: cover;
+    height: 500px;
+}
