@@ -1,6 +1,10 @@
-.yoga{
+/* .yoga{
     margin-bottom: 4rem;
-}
+    max-width: 1400px;
+    padding: 0 2rem;
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 .yoga > p{
     max-width: 800px;
@@ -12,9 +16,9 @@
 .yoga_images{
     position: relative;
     max-width: 1000px;
-    height: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    min-height: 800px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
 }
 
 .yoga_img1{
@@ -57,4 +61,22 @@
     height: 500px;
     bottom: 0;
     right: 0;
+}
+
+@media(max-width: 970px){
+    .yoga_images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .yoga_images > div {
+        position: static; /* Убираем абсолютное позиционирование для элементов */
+        flex: 1 1 250px; /* Элементы растягиваются на всю ширину контейнера */
+        max-width: 100%; /* Ограничиваем ширину */
+        height: auto; /* Автоматическая высота для адаптации */
+        min-height: 300px; /* Минимальная высота для сохранения пропорций */
+        background-size: cover; /* Убедимся, что изображение занимает весь элемент */
+    }  
 }

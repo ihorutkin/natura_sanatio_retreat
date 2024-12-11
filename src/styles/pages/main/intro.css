@@ -23,7 +23,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
+    flex-wrap: wrap;
+    padding: 4rem 4rem;
+    max-width: 700px;
 }
 
 .intro_content::before{
@@ -38,14 +40,17 @@
 }
 
 .intro_content > h2{
+    width: 100%;
+    text-align: center;
     z-index: 1;
     font-size: 42px;
-    line-height: 0;
+    /* line-height: 0; */
 }
 
 .intro_content > p{
     z-index: 1;
     font-size: 24px;
+    text-align: center;
 }
 
 .see_more_block{
@@ -60,4 +65,3 @@
     background: var(--light-gray2-color);
     cursor: pointer;
 }
-

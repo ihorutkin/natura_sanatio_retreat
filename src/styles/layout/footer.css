@@ -9,11 +9,13 @@
 .footer_content{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer_title{
     flex-basis: 25%;
     border-right: 1px var(--light-gray2-color) solid;
+    padding: 0 1rem 0 0;
 }
 
 .footer_title > h2{
@@ -25,6 +27,8 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    padding: 0 1rem;
+    min-width: 200px;
 }
 
 .footer_link{
@@ -102,4 +106,22 @@
     background-size: cover;
     width: 40px;
     height: 40px;
+}
+
+@media(max-width: 630px){
+    .footer_container{
+        padding: 3rem 1rem;
+    }
+
+    .footer_content{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer_title{
+        border: none;
+        flex-basis: 100%;
+        text-align: center;
+    }
 }

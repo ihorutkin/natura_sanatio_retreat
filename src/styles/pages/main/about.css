@@ -4,7 +4,8 @@
     flex-direction: column;
     margin: 4rem 0 2rem 0;
     margin-right: auto;
-    margin-left: auto;  
+    margin-left: auto;
+    padding: 0 2rem;
 }
 
 .about_container > h2{
@@ -36,6 +37,7 @@
 .about_content{
     flex-basis: 30%;
     flex: 1 1 30%;
+    min-width: 250px;
 }
 
 .about_content > p{
@@ -60,6 +62,9 @@
     flex-basis: 70%;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 50px);
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* .about_img{
@@ -92,4 +97,28 @@
     background-size: cover;
     background-position: center;
     background-color: #ccc;
+}
+
+@media(max-width: 748px){
+    .about_img_block{
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .img1{
+        width: 100%;
+        height: 200px;
+    }
+
+    .img2{
+        width: 100%;
+        height: 200px;
+    }
+
+    .img3{
+        width: 100%;
+        height: 200px;
+    }
 }

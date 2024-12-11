@@ -44,20 +44,23 @@
 .online_plan_additionaly{
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     background-color: var(--dark-green-color);
     color: var(--light-gray1-color);
     padding: 2rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    flex-wrap: wrap;
 }
 
 .online_plan_item_add{
     padding: 2rem;
-    flex-basis: 22%;
+    flex-basis: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 }
 
 .fitness{
@@ -90,4 +93,10 @@
 
 .online_plan_item_add > p{
     text-align: center;
+}
+
+@media(max-width: 748px){
+    .online_container > h2{
+        font-size: 32px;
+    }
 }

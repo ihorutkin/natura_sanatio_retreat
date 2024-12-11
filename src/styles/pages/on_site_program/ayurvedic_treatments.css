@@ -3,20 +3,20 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4rem;
+    padding: 0 2rem;
 }
 
 .ayurvedic_treatments > p{
     text-align: center;
-    margin: 4rem 0;
+    margin: 4rem auto;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .ayurvedic_treatments_block{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .ayurcedic_img{
@@ -26,6 +26,7 @@
     height: 500px;
     background-color: #e6e6e6;
     overflow: hidden;
+    flex: 1 1 300px;
 }
 
 .second_ayurcedic_img{
@@ -60,4 +61,19 @@
 .ayurcedic_img:hover .ayurvedic_treatment_img_content{
     top: 0;
     transition: all .3s linear;
+}
+
+@media(max-width: 970px){
+    .second_ayurcedic_img{
+        height: 500px;
+    }
+    .ayurvedic_treatments_block{
+        gap: 5px;
+    }
+}
+
+@media(max-width: 570px){
+    .ayurcedic_img{
+        height: 300px;
+    }
 }
