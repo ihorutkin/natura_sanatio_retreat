@@ -51,18 +51,10 @@ export default function Valentyna(){
                 <article className='specialization_content'>
                     <h2 className='teammate_title'>Specialization</h2>
                     <ul>
-                        <li>
-                            COSMETIC SCIENCE
-                        </li>
-                        <li>
-                            AESTETIC DERMATOLOGY
-                        </li>
-                        <li>
-                            PSYCHOTHERAPY
-                        </li>
-                        <li>
-                            MIND&BODY RESET
-                        </li>
+                        <li>COSMETIC SCIENCE</li>
+                        <li>AESTETIC DERMATOLOGY</li>
+                        <li>PSYCHOTHERAPY</li>
+                        <li>MIND&BODY RESET</li>
                     </ul>
                 </article>
             </section>
