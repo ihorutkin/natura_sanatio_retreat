@@ -14,7 +14,7 @@ export default function Valentyna(){
     };
     return(
         <Layout>
-            <section className='teammate_intro'>
+            <section className='teammate_intro valentyna_img'>
                 <article className='teammate_title_block'>
                     <h2 className='teammate_title' data-aos="fade-right" data-aos-duration="600">Valentyna Smyi</h2>
                     <p className='teammate_subtitle' data-aos="fade-right" data-aos-duration="1000">B.S. Cosmetology, KAAFM Medicine and Health Science</p>

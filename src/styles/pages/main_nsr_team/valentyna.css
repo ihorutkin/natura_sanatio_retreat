@@ -3,9 +3,12 @@
     align-items: center;
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
+}
+
+.valentyna_img{
     background-image: url("../../../media/img/NSR_team/valentyna/valentyna.JPG");
     background-size: cover;
-    overflow-x: hidden;
 }
 
 .teammate_intro::before{

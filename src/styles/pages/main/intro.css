@@ -46,6 +46,11 @@
     text-align: center;
     z-index: 1;
     font-size: 42px;
+    line-height: 0;
+}
+
+.intro_content > .retreat{
+    font-size: 32px;
 }
 
 .intro_content > p{

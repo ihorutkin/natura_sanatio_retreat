@@ -21,7 +21,8 @@ export default function Intro(){
             </article>
             <article className="intro_content_block">
                 <div className="intro_content">
-                    <h2>NATURA SANATIO RTREAT</h2>
+                    <h2>NaturaSanatio</h2>
+                    <h2 className="retreat">RETREAT</h2>
                     <p>A journey to reneval</p>
                     <SeeMoreBtn>
                         <Link to="#about" className="see_more_btn" onClick={() => scrollToSection('about')}>SEE MORE</Link>
