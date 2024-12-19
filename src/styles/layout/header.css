@@ -1,4 +1,3 @@
-/* Default styles */
 .header_container {
     position: fixed;
     top: 0;
@@ -10,14 +9,26 @@
     background-color: #fff;
     z-index: 10;
     padding: 0.5rem 0;
+    transition: height 0.3s ease, background-color 0.3s ease;
+}
+
+.shrunk{
+    padding: 0;
+    opacity: .5;
 }
 
 .nsr_logo {
-    background-image: url("../../media/logo/logo_nsr.jpg");
+    background-image: url("../../media/logo/logo_nsr-removebg-preview1.png");
     background-size: cover;
     width: 80px;
     height: 80px;
     margin-left: 2rem;
+    transition: height 0.3s ease, background-color 0.3s ease;
+}
+
+.shrunked_logo{
+    width: 60px;
+    height: 60px;
 }
 
 .header_nav_lang {
@@ -95,7 +106,6 @@
     background-size: cover;
 }
 
-/* Media query for screens smaller than 900px */
 @media (max-width: 900px) {
     .header_nav_lang {
         flex-direction: row;

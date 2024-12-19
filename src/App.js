@@ -6,6 +6,10 @@ import AccomodationAndDietPage from "./jsx_components/pages/accomodation_diet"
 import MainNSRTeamPage from "./jsx_components/pages/main_nsr_team"
 import OnlineProgramPage from "./jsx_components/pages/online_programs"
 import OnSiteProgramPage from "./jsx_components/pages/on_site_proram"
+import Maryana from './jsx_components/pages/main_nsr_team/maryana';
+import Valentyna from './jsx_components/pages/main_nsr_team/valentyna';
+import Prasad from './jsx_components/pages/main_nsr_team/prasad';
+import Artemyi from './jsx_components/pages/main_nsr_team/artemyi';
 import AOS from "aos"
 
 
@@ -36,6 +40,22 @@ function App() {
       <Route
         path='/main_nsr_team'
         element={<MainNSRTeamPage />}
+      />
+      <Route
+        path='/main_nsr_team/maryana'
+        element={<Maryana />}
+      />
+      <Route
+        path='/main_nsr_team/valentyna'
+        element={<Valentyna />}
+      />
+      <Route
+        path='/main_nsr_team/prasad'
+        element={<Prasad />}
+      />
+      <Route
+        path='/main_nsr_team/artemyi'
+        element={<Artemyi />}
       />
     </Routes>
   );

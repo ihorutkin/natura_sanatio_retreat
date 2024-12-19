@@ -9,8 +9,8 @@ export default function Header() {
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     return (
-        <div className="header_container">
-            <div className="nsr_logo"></div>
+        <div className="header_container" id="header">
+            <div className="nsr_logo" id="nsr_logo"></div>
             <div className="header_nav_lang">
                 <nav className={`navigation_container ${menuOpen ? "active" : ""}`}>
                     <Link to={"/"} className="header_link">home</Link>

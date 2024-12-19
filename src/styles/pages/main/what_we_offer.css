@@ -44,17 +44,10 @@
     font-size: 20px;
 }
 
-.offers_title > p > span{
-    font-weight: bold;
-    /* text-decoration: underline;
-    text-decoration-color: var(--dark-green-color);
-    text-underline-offset: 5px; */
-}
-
 .offers_img{
     flex-basis: 46%;
     height: 500px;
-    background-image: url("../../../media/img/offer.jpg");
+    background-image: url("../../../media/img/main/what_we_offer2.JPG");
     background-size: cover;
     background-position: center;
     border: none;
@@ -62,7 +55,18 @@
     flex: 1 1 300px;
 }
 
-.offers_text{
-    padding: 1rem;
-    border-left: 2px var(--dark-green-color) solid;
+.offer_item {
+    padding: 5px 0;
+    list-style-type: none;
+    position: relative;
+}
+
+.offer_item::before {
+    content: "❀";
+    position: absolute;
+    left: 0;
+}
+
+.offer_item {
+    padding-left: 30px;
 }

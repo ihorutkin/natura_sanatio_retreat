@@ -9,19 +9,19 @@ export default function WhatWeOffer(){
                 <div className="offers_content">
                     <article className="offers_img"  data-aos="fade-right" data-aos-duration="1000"></article>
                     <article className="offers_text_block">
-                        <div className="offers_title"  data-aos="fade-left" data-aos-duration="1000">
+                        <div className="offers_title" data-aos="fade-left" data-aos-duration="1000">
                             <h2>What we offer</h2>
-                            <p><span>NSR</span> recognizes the <span>individual</span> and <span>holistic</span> nature of each person</p>
+                            <p>Get your first step for new life with us!</p>
                         </div>
-                        <div className="offers_text"  data-aos="fade-left" data-aos-duration="1200">
-                            That's our program includes not only group activities but also personalized
-                            consultations with experts who will help develop individualized plan tailoredto your physical,
-                            emotionl, and mental state
-                        </div>
-                        <div className="offers_text"  data-aos="fade-left" data-aos-duration="1400">
-                            We aim to create an environment where you can experience a true reset and build 
-                            a foundation for lasting health and inner balance
-                        </div>
+                        <ul className="offers_list">
+                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Individual approach to everyone</li>
+                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Comprehensive analyses of mental and physical conditions by experts </li>
+                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Group mind and body therapies </li>
+                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Individual mind and body therapies </li>
+                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Educational programs for mind resetting</li>
+                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Diet tailored to body type </li>
+                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Comfortable and peaceful accommodation </li>
+                        </ul>
                     </article>
                 </div>
             </div>

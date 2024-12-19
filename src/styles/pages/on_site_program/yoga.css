@@ -22,8 +22,9 @@
 }
 
 .yoga_img1{
-    background-image: url("../../../media/img/recovery_plan/on_site/yoga1.jpg");
+    background-image: url("../../../media/img/recovery_plan/on_site/yoga1.PNG");
     background-size: cover;
+    background-position: center;
     position: absolute;
     width: 400px;
     height: 400px;
@@ -33,8 +34,9 @@
 }
 
 .yoga_img2{
-    background-image: url("../../../media/img/recovery_plan/on_site/yoga2.jpg");
+    background-image: url("../../../media/img/recovery_plan/on_site/yoga2.PNG");
     background-size: cover;
+    background-position: center;
     position: absolute;
     width: 400px;
     height: 400px;
@@ -43,19 +45,21 @@
 }
 
 .yoga_img3{
-    background-image: url("../../../media/img/recovery_plan/on_site/yoga3.jpg");
+    background-image: url("../../../media/img/recovery_plan/on_site/yoga3.PNG");
     background-size: cover;
+    background-position: center;
     position: absolute;
     width: 500px;
     height: 300px;
     bottom: 4rem;
     left: 0;
-    z-index: 3;
+    z-index: 4;
 }
 
 .yoga_img4{
-    background-image: url("../../../media/img/recovery_plan/on_site/yoga4.jpg");
+    background-image: url("../../../media/img/recovery_plan/on_site/yoga4.PNG");
     background-size: cover;
+    background-position: center;
     position: absolute;
     width: 500px;
     height: 500px;

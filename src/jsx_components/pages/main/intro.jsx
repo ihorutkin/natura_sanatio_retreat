@@ -3,8 +3,17 @@ import React from "react";
 import introVideo from "../../../media/video/13234027-uhd_3840_2160_30fps.mp4"
 
 import "../../../styles/pages/main/intro.css"
+import { Link } from "react-router-dom";
+import SeeMoreBtn from "../../buttons/seeMore";
 
 export default function Intro(){
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return(
         <section className="intro_container">
             <article className="intro_video">
@@ -14,9 +23,9 @@ export default function Intro(){
                 <div className="intro_content">
                     <h2>NATURA SANATIO RTREAT</h2>
                     <p>A journey to reneval</p>
-                    <div className="see_more_block">
-                        <button className="see_more_btn">See more</button>
-                    </div>
+                    <SeeMoreBtn>
+                        <Link to="#about" className="see_more_btn" onClick={() => scrollToSection('about')}>SEE MORE</Link>
+                    </SeeMoreBtn>
                 </div>
             </article>
         </section>

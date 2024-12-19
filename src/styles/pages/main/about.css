@@ -1,8 +1,15 @@
+.about{
+    width: 100vw;
+    background-image: url("../../../media/img/main/about.JPG");
+    color: var(--light-gray2-color);
+    margin: 4rem 0 2rem 0;
+    padding-top: 3rem;
+}
+
 .about_container{
     max-width: 1400px;
     display: flex;
     flex-direction: column;
-    margin: 4rem 0 2rem 0;
     margin-right: auto;
     margin-left: auto;
     padding: 0 2rem;
@@ -29,7 +36,7 @@
 
 .about_block{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     margin-top: 2rem;
 }
@@ -41,42 +48,35 @@
 }
 
 .about_content > p{
+    text-align: center;
     padding: 1rem 1rem 1rem 0;
 }
 
-.about_img_block{
-    display: grid;
-    grid-template-areas: 
-        'img1 img1 img1 img2 img2 img2 img2 img2 img2 img2'
-        'img1 img1 img1 img2 img2 img2 img2 img2 img2 img2'
-        'img1 img1 img1 img2 img2 img2 img2 img2 img2 img2'
-        'img3 img3 img3 img2 img2 img2 img2 img2 img2 img2'
-        'img3 img3 img3 img2 img2 img2 img2 img2 img2 img2'
-        'img3 img3 img3 img2 img2 img2 img2 img2 img2 img2'
-        'img3 img3 img3 img2 img2 img2 img2 img2 img2 img2'
-        'img3 img3 img3 img2 img2 img2 img2 img2 img2 img2'
-        'img3 img3 img3 img2 img2 img2 img2 img2 img2 img2'
-        'img3 img3 img3 img2 img2 img2 img2 img2 img2 img2'
-    ;
-    gap: 10px;
-    flex-basis: 70%;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 50px);
-    min-width: 250px;
-    margin-left: auto;
-    margin-right: auto;
+.about_nsr{
+    font-size: 32px;
+    font-weight: 400;
+    font-style: italic;
 }
 
-/* .about_img{
-    width: 200px;
+.about_img_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.about_img{
+    flex-basis: 27%;
+    flex: 1 1 200px;
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 500px;
     border-radius: 10px;
-} */
+}
 
 .img1{
-    grid-area: img1;
     background-image: url("../../../media/img/about_spa.jpg");
     background-size: cover;
     background-position: center;
@@ -84,16 +84,14 @@
 }
 
 .img2{
-    grid-area: img2;
-    background-image: url("../../../media/img/spa1.jpg");
+    background-image: url("../../../media/img/main/about/about1.PNG");
     background-size: cover;
     background-position: center;
     background-color: #ccc;
 }
 
 .img3{
-    grid-area: img3;
-    background-image: url("../../../media/img/spa.jpg");
+    background-image: url("../../../media/img/main/about/about2.PNG");
     background-size: cover;
     background-position: center;
     background-color: #ccc;

@@ -95,6 +95,84 @@
     text-align: center;
 }
 
+
+
+.box-2 { 
+    background-color: var(--dark-blue-color);
+    transition: all 0.3s;
+}
+
+.box-2:hover{
+    background-color: transparent;
+    transition: all 0.3s;
+    color: var(--dark-green-color);
+}
+
+.btn {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+}
+
+.btn-two {
+    transition: all 0.5s;
+    position: relative; 
+}
+
+.btn-two button {
+    font-family: "Montserrat", serif;
+    background: none;
+    border: none;
+    color: #FFF;
+    z-index: 2; 
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.btn-two button:hover{
+    color: var(--dark-green-color);
+}
+
+.btn-two::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(25,37,36,0.2);
+    /* background-color: rgba(255,255,255,0.1); */
+}
+.btn-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(25,37,36,0.2);
+    /* background-color: rgba(255,255,255,0.1); */
+}
+.btn-two:hover::before {
+    transform: rotate(-45deg);
+    background-color: rgba(25,37,36,0);
+}
+.btn-two:hover::after {
+    transform: rotate(45deg);
+    background-color: rgba(25,37,36,0);
+}
+
+
+
 @media(max-width: 748px){
     .online_container > h2{
         font-size: 32px;

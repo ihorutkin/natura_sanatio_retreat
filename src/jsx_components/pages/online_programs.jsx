@@ -1,19 +1,67 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../layout/layout";
+import "../../styles/pages/online_program.css";
+import OnlineProgramModal from "../modal/onlineProgramModal";
 
-import "../../styles/pages/online_program.css"
+export default function OnlineProgramPage() {
+    const [activeModal, setActiveModal] = useState(null);
 
-export default function OnlineProgramPage(){
-    return(
+    const openModal = (modalName) => setActiveModal(modalName);
+    const closeModal = () => setActiveModal(null);
+
+    return (
         <Layout>
             <section className="online_container">
                 <h2 data-aos="fade-up" data-aos-duration="600">ONLINE PROGRAM</h2>
                 <p data-aos="fade-up" data-aos-duration="1000">Complex of personalized analizes by</p>
                 <article className="online_plan">
-                    <div className="online_plan_item"data-aos="fade-right" data-aos-duration="600">Psychologist</div>
-                    <div className="online_plan_item"data-aos="fade-right" data-aos-duration="1000">Nutritionist</div>
-                    <div className="online_plan_item"data-aos="fade-left" data-aos-duration="600">Cosmetologist</div>
-                    <div className="online_plan_item"data-aos="fade-left" data-aos-duration="1000">Numerology</div>
+                    <div className="box-2">
+                        <div className="btn btn-two">
+                            <button onClick={() => openModal("psychologist")}>PSYCHOLOGIST</button>
+                        </div>
+                        <OnlineProgramModal
+                            isOpen={activeModal === "psychologist"}
+                            onClose={closeModal}
+                        >
+                            <p>
+                                Official tests designed to uncover your personality type,
+                                current mental state, temperament, intellectual level,
+                                and cognitive functions. The results will help you gain a better
+                                understanding of yourself.
+                            </p>
+                        </OnlineProgramModal>
+                    </div>
+                    <div className="box-2">
+                        <div className="btn btn-two">
+                            <button onClick={() => openModal("nutritionist")}>NUTRITIONIST</button>
+                        </div>
+                        <OnlineProgramModal
+                            isOpen={activeModal === "nutritionist"}
+                            onClose={closeModal}
+                        >
+                            <p>
+                                Gathering information about your physical state, as well as
+                                current and potential health issues. Based on the collected data,
+                                you will receive recommendations on suitable and unsuitable products
+                                for your body type, following principles of ancient Asian medicine
+                                and modern science.
+                            </p>
+                        </OnlineProgramModal>
+                    </div>
+                    <div className="box-2">
+                        <div className="btn btn-two">
+                            <button onClick={() => openModal("numerology")}>NUMEROLOGY</button>
+                        </div>
+                        <OnlineProgramModal
+                            isOpen={activeModal === "numerology"}
+                            onClose={closeModal}
+                        >
+                            <p>
+                                An additional tool from ancient knowledge to reveal a comprehensive
+                                map of your character on deeper levels.
+                            </p>
+                        </OnlineProgramModal>
+                    </div>
                 </article>
                 <article className="online_plan_additionaly">
                     <div className="online_plan_item_add">
@@ -35,5 +83,5 @@ export default function OnlineProgramPage(){
                 </article>
             </section>
         </Layout>
-    )
+    );
 }
