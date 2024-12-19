@@ -17,7 +17,7 @@ export default function Intro(){
     return(
         <section className="intro_container">
             <article className="intro_video">
-                <video src={introVideo} loop autoPlay muted></video>
+                <video src={introVideo} loop autoPlay muted playsInline></video>
             </article>
             <article className="intro_content_block">
                 <div className="intro_content">
