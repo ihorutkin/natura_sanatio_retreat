@@ -2,7 +2,7 @@
     width: 100vw;
     background-image: url("../../../media/img/main/about.JPG");
     color: var(--light-gray2-color);
-    margin: 4rem 0 2rem 0;
+    margin: 10px 0 2rem 0;
     padding-top: 3rem;
 }
 
