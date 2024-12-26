@@ -1,0 +1,18 @@
+.residence_slider .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: transparent;
+}
+  
+.residence_slider .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+}
+  
+.residence_slider .swiper-slide img {
+    display: block;
+    width: 100%;
+}

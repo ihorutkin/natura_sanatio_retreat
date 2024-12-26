@@ -121,11 +121,45 @@
 
 .accomodation_img{
     flex-basis: 50%;
-    background-image: url("../../media/img/accomodation/accomodation_img.jpg");
+    background-image: url("../../media/img/accomodation/accomodation/accomodation1.PNG");
     background-size: cover;
     background-position: center;
     height: 500px;
     flex: 1 1 400px;
+}
+
+/* Residence */
+
+.residence_overview{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2rem;
+}
+
+.residence_overview > h2{
+    font-family: "Rufina", serif;
+    font-size: 46px;
+    line-height: 0;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.residence_overview > p{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.residence_down_text{
+    font-style: italic;
+}
+
+@media(max-width: 748px){
+    .residence_overview > h2{
+        font-size: 32px;
+    }
 }
 
 @media(max-width: 520px){
@@ -135,5 +169,22 @@
 
     .accomodation_content > h2{
         font-size: 32px;
+    }
+
+    .accomodation_content > ul{
+        padding: 0;
+    }
+
+    .accomodation_content > ul > li{
+        list-style: none;
+    }
+
+    .accomodation_overview{
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .residence_overview{
+        padding: 0 10px;
     }
 }
