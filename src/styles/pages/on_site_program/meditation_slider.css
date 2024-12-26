@@ -145,3 +145,13 @@
         font-size: 12px;
     }
 }
+
+@media(max-width: 670px){
+    .content .des{
+        max-width: 200px;
+    }
+
+    .item .content{
+        left: 20px;
+    }
+}
