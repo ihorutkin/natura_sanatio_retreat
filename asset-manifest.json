@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/natura_sanatio_retreat/static/css/main.81c80c20.css",
-    "main.js": "/natura_sanatio_retreat/static/js/main.a0fd79b6.js",
+    "main.css": "/natura_sanatio_retreat/static/css/main.3c27d186.css",
+    "main.js": "/natura_sanatio_retreat/static/js/main.caf6e8f6.js",
     "static/media/13234027-uhd_3840_2160_30fps.mp4": "/natura_sanatio_retreat/static/media/13234027-uhd_3840_2160_30fps.5f78050cb6bf285dabc6.mp4",
     "static/media/sukhasana2.PNG": "/natura_sanatio_retreat/static/media/sukhasana2.efcd16cc76bc24a3333c.PNG",
     "static/media/yoga1.PNG": "/natura_sanatio_retreat/static/media/yoga1.efcd16cc76bc24a3333c.PNG",
@@ -13,6 +13,7 @@
     "static/media/about3.PNG": "/natura_sanatio_retreat/static/media/about3.177e78bc147255dcacef.PNG",
     "static/media/accomodation.jpg": "/natura_sanatio_retreat/static/media/accomodation.fcf7761eae8ae14b1923.jpg",
     "static/media/acupuncture.jpg": "/natura_sanatio_retreat/static/media/acupuncture.970b0543af90247dd8fa.jpg",
+    "static/media/residence10.PNG": "/natura_sanatio_retreat/static/media/residence10.353c6a34055d48e79e58.PNG",
     "static/media/massage.jpg": "/natura_sanatio_retreat/static/media/massage.98eb45e8d2d215e79744.jpg",
     "static/media/yoga2.PNG": "/natura_sanatio_retreat/static/media/yoga2.179f5a03a767d5822242.PNG",
     "static/media/nidra2.PNG": "/natura_sanatio_retreat/static/media/nidra2.79dbf7df843eebaf07f3.PNG",
@@ -20,22 +21,31 @@
     "static/media/food.jpg": "/natura_sanatio_retreat/static/media/food.4c547b03b0edfa9b1dbd.jpg",
     "static/media/artemyi1.PNG": "/natura_sanatio_retreat/static/media/artemyi1.e3556e4dbd01deb8ce22.PNG",
     "static/media/prasad2.PNG": "/natura_sanatio_retreat/static/media/prasad2.2a5bfbab44bdb45b8664.PNG",
+    "static/media/residence9.PNG": "/natura_sanatio_retreat/static/media/residence9.30976ce0f668ff9d554b.PNG",
     "static/media/yoga3.PNG": "/natura_sanatio_retreat/static/media/yoga3.1971d4c29e836788e51b.PNG",
     "static/media/valentyna2.PNG": "/natura_sanatio_retreat/static/media/valentyna2.6a405b8842b88f52b0ca.PNG",
     "static/media/prasad1.PNG": "/natura_sanatio_retreat/static/media/prasad1.d426fc9e1cc6f473c4d9.PNG",
+    "static/media/residence8.PNG": "/natura_sanatio_retreat/static/media/residence8.c5dc40d615191eb97d3e.PNG",
     "static/media/artemyi.PNG": "/natura_sanatio_retreat/static/media/artemyi.1820edb43f5bd93bf483.PNG",
     "static/media/about2.PNG": "/natura_sanatio_retreat/static/media/about2.062fb8c772dad21c8a00.PNG",
+    "static/media/accomodation1.PNG": "/natura_sanatio_retreat/static/media/accomodation1.f9749e664fdea1ebce18.PNG",
     "static/media/about1.PNG": "/natura_sanatio_retreat/static/media/about1.c44fad5af5adfb8437f4.PNG",
     "static/media/about4.PNG": "/natura_sanatio_retreat/static/media/about4.5a3aad142f2f6ffa603c.PNG",
+    "static/media/residence7.PNG": "/natura_sanatio_retreat/static/media/residence7.6cf2180c67520b9993c1.PNG",
+    "static/media/residence6.PNG": "/natura_sanatio_retreat/static/media/residence6.4b8141c91458237ec953.PNG",
     "static/media/what_we_offer3.jpg": "/natura_sanatio_retreat/static/media/what_we_offer3.94abeb42d05d2bc04810.jpg",
+    "static/media/residence5.PNG": "/natura_sanatio_retreat/static/media/residence5.f06fdec9d6f14e121f29.PNG",
+    "static/media/residence4.JPG": "/natura_sanatio_retreat/static/media/residence4.08dae3cd22bbbaf7a6b5.JPG",
     "static/media/sukhasana1.JPG": "/natura_sanatio_retreat/static/media/sukhasana1.6200fe31bdbb7ff5e576.JPG",
     "static/media/valentyna3.JPG": "/natura_sanatio_retreat/static/media/valentyna3.61ad0f92f6b56a43d54a.JPG",
     "static/media/about.JPG": "/natura_sanatio_retreat/static/media/about.ae318e9f4a4ef261a1f8.JPG",
+    "static/media/residence2.JPG": "/natura_sanatio_retreat/static/media/residence2.d05ecd6a96c1182502cd.JPG",
     "static/media/valentyna.JPG": "/natura_sanatio_retreat/static/media/valentyna.2573df3c4375944aaafa.JPG",
     "static/media/meditation.JPG": "/natura_sanatio_retreat/static/media/meditation.77dee7aa593adfd71394.JPG",
+    "static/media/residence1.JPG": "/natura_sanatio_retreat/static/media/residence1.9ddabd345bfb9bea05ca.JPG",
+    "static/media/residence3.JPG": "/natura_sanatio_retreat/static/media/residence3.734d8ca43465db742a57.JPG",
     "static/media/maryana2.JPG": "/natura_sanatio_retreat/static/media/maryana2.7696dddbc6a2a1c812a2.JPG",
     "static/media/maryana.JPG": "/natura_sanatio_retreat/static/media/maryana.140bc47c0ec0e699098b.JPG",
-    "static/media/accomodation_img.jpg": "/natura_sanatio_retreat/static/media/accomodation_img.b5764b3f19298d0af78f.jpg",
     "static/media/photo_6_2024-11-21_19-16-05.jpg": "/natura_sanatio_retreat/static/media/photo_6_2024-11-21_19-16-05.847684184d485dd18fc2.jpg",
     "static/media/maryana1.JPG": "/natura_sanatio_retreat/static/media/maryana1.df9b1150b5ba503cd05b.JPG",
     "static/media/valentyna1.JPG": "/natura_sanatio_retreat/static/media/valentyna1.dd99fd5a0606b22eaa9d.JPG",
@@ -58,11 +68,11 @@
     "static/media/facebook.png": "/natura_sanatio_retreat/static/media/facebook.49e67d43221b6bb1aa86.png",
     "static/media/call-out_16340067.png": "/natura_sanatio_retreat/static/media/call-out_16340067.e09529d984bda87fbb1f.png",
     "index.html": "/natura_sanatio_retreat/index.html",
-    "main.81c80c20.css.map": "/natura_sanatio_retreat/static/css/main.81c80c20.css.map",
-    "main.a0fd79b6.js.map": "/natura_sanatio_retreat/static/js/main.a0fd79b6.js.map"
+    "main.3c27d186.css.map": "/natura_sanatio_retreat/static/css/main.3c27d186.css.map",
+    "main.caf6e8f6.js.map": "/natura_sanatio_retreat/static/js/main.caf6e8f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.81c80c20.css",
-    "static/js/main.a0fd79b6.js"
+    "static/css/main.3c27d186.css",
+    "static/js/main.caf6e8f6.js"
   ]
 }
