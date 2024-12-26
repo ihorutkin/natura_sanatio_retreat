@@ -83,3 +83,9 @@
 .offer_item {
     padding-left: 30px;
 }
+
+@media(max-width: 700px){
+    .offers_img{
+        display: none;
+    }
+}
