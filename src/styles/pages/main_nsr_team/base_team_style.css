@@ -1,0 +1,152 @@
+.teammate_intro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.teammate_intro::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.teammate_title{
+    font-family: "Rufina";
+    font-size: 46px;
+}
+
+.teammate_title_block{
+    padding: 2rem;
+    max-width: 800px;
+    position: relative;
+    z-index: 1;
+    color: var(--light-gray2-color);
+}
+
+.teammate_subtitle{
+    font-size: 24px;
+}
+
+.teammate_see_more_btn{
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: var(--light-gray2-color);
+}
+
+.international_practice{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    justify-content: space-between;
+    margin: 4rem auto;
+    padding: 0 5px;
+}
+
+.international_practice_content{
+    flex-basis: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 400px;
+}
+
+.international_practice_content > ul > li{
+    font-size: 20px;
+    padding: 1rem 0;
+}
+
+.international_practice_img{
+    flex-basis: 47%;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    flex: 1 1 400px;
+}
+
+.spaecializaation{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    max-width: 1400px;
+    justify-content: space-between;
+    margin: 2rem auto 4rem auto;
+    padding: 0 5px;
+}
+
+.specialization_content{
+    flex-basis: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 400px;
+}
+
+.specialization_content > ul > li{
+    padding: 10px 0;
+}
+
+.specialization_img{
+    flex-basis: 47%;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    flex: 1 1 400px;
+}
+
+@media (max-width: 800px){
+
+    .teammate_title{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .teammate_subtitle{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .teammate_title_block{
+        padding: 2rem 10px;
+    }
+
+    .teammate_title_block > p{
+        text-align: center;
+    }
+
+    .teammate_title_block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .international_practice_content{
+        text-align: center;
+    }
+
+    .international_practice_content > ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .international_practice_content > ul > li{
+        list-style: none;
+    }
+
+    .specialization_content > ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .specialization_content > ul > li{
+        list-style: none;
+        text-align: center;
+    }
+}

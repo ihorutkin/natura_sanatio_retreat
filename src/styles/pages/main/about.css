@@ -2,7 +2,7 @@
     width: 100vw;
     background-image: url("../../../media/img/main/about.JPG");
     color: var(--light-gray2-color);
-    margin: 10px 0 2rem 0;
+    margin: 10px 0 5px 0;
     padding-top: 3rem;
 }
 
@@ -68,30 +68,37 @@
 }
 
 .about_img{
-    flex-basis: 27%;
+    flex-basis: 22%;
     flex: 1 1 200px;
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 300px;
     border-radius: 10px;
 }
 
 .img1{
-    background-image: url("../../../media/img/about_spa.jpg");
-    background-size: cover;
-    background-position: center;
-    background-color: #ccc;
-}
-
-.img2{
     background-image: url("../../../media/img/main/about/about1.PNG");
     background-size: cover;
     background-position: center;
     background-color: #ccc;
 }
 
-.img3{
+.img2{
     background-image: url("../../../media/img/main/about/about2.PNG");
+    background-size: cover;
+    background-position: center;
+    background-color: #ccc;
+}
+
+.img3{
+    background-image: url("../../../media/img/main/about/about3.PNG");
+    background-size: cover;
+    background-position: center;
+    background-color: #ccc;
+}
+
+.img4{
+    background-image: url("../../../media/img/main/about/about4.PNG");
     background-size: cover;
     background-position: center;
     background-color: #ccc;

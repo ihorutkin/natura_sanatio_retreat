@@ -23,6 +23,7 @@ export default function OnlineProgramPage() {
                             isOpen={activeModal === "psychologist"}
                             onClose={closeModal}
                         >
+                            <h2 style={{ fontFamily: "Rufina" }}>PSYCHOLOGIST</h2>
                             <p>
                                 Official tests designed to uncover your personality type,
                                 current mental state, temperament, intellectual level,
@@ -39,6 +40,7 @@ export default function OnlineProgramPage() {
                             isOpen={activeModal === "nutritionist"}
                             onClose={closeModal}
                         >
+                            <h2 style={{ fontFamily: "Rufina" }}>NUTRITIONIST</h2>
                             <p>
                                 Gathering information about your physical state, as well as
                                 current and potential health issues. Based on the collected data,
@@ -56,6 +58,7 @@ export default function OnlineProgramPage() {
                             isOpen={activeModal === "numerology"}
                             onClose={closeModal}
                         >
+                            <h2 style={{ fontFamily: "Rufina" }}>NUMEROLOGY</h2>
                             <p>
                                 An additional tool from ancient knowledge to reveal a comprehensive
                                 map of your character on deeper levels.

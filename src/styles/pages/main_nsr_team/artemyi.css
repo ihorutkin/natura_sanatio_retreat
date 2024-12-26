@@ -1,0 +1,13 @@
+.artemyi_img{
+    background-image: url("../../../media/img/NSR_team/artemyi/artemyi2.PNG");
+    background-size: cover;
+    background-position: center;
+}
+
+.artemyi_international_practice_img{
+    background-image: url("../../../media/img/NSR_team/artemyi/artemyi.PNG");
+}
+
+.artemyi_specialization_img{
+    background-image: url("../../../media/img/NSR_team/artemyi/artemyi1.PNG");
+}

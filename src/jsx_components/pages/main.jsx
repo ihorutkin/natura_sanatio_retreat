@@ -7,7 +7,7 @@ import WhatWeOffer from "./main/what_we_offer";
 
 export default function MainPage(){
     return(
-        <div style={{ overflow: "hidden" }}>
+        <div style={{ overflow: "hidden"}}> 
             <Layout>
                 <Intro />
                 <About />

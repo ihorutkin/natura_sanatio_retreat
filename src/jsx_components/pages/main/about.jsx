@@ -20,6 +20,7 @@ export default function About(){
                         <div className="about_img img1" data-aos="fade-left" data-aos-duration="800"></div>
                         <div className="about_img img2" data-aos="fade-left" data-aos-duration="1000"></div>
                         <div className="about_img img3" data-aos="fade-left" data-aos-duration="1200"></div>
+                        <div className="about_img img4" data-aos="fade-left" data-aos-duration="1400"></div>
                     </article>            
                 </div>
             </div>

@@ -12,12 +12,28 @@ export default function Header() {
         <div className="header_container" id="header">
             <div className="nsr_logo" id="nsr_logo"></div>
             <div className="header_nav_lang">
-                <nav className={`navigation_container ${menuOpen ? "active" : ""}`}>
-                    <Link to={"/"} className="header_link">home</Link>
-                    <Link to={"/recovery_plan"} className="header_link">recovery plan</Link>
-                    <Link to={"/accomodation_and_diet"} className="header_link">accommodation and diet</Link>
-                    <Link to={"/main_nsr_team"} className="header_link">main NSR team</Link>
-                </nav>
+                <ul className={`navigation_container ${menuOpen ? "active" : ""}`}>
+                    <li className="menu_item">
+                        <Link to={"/"} className="header_link">home</Link>
+                    </li>
+                    <li className="menu_item">
+                        <Link to={"/recovery_plan"} className="header_link">recovery plan</Link>
+                        <ul className="submenu">
+                            <li className="submenu_item">
+                                <Link to={"/online_program"} className="header_link submenu_link">Online</Link>
+                            </li>
+                            <li className="submenu_item">
+                                <Link to={"/on-site_program"} className="header_link submenu_link">On-site</Link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li className="menu_item">
+                        <Link to={"/accomodation_and_diet"} className="header_link">accommodation and diet</Link>
+                    </li>
+                    <li className="menu_item">
+                        <Link to={"/main_nsr_team"} className="header_link">main NSR team</Link>
+                    </li>
+                </ul>
                 <div className="header_contact">
                     <div className="header_contact_block">
                         <div className="header_call"></div>

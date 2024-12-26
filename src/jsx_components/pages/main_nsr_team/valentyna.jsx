@@ -3,6 +3,7 @@ import Layout from '../../layout/layout';
 import SeeMoreBtn from "../../buttons/seeMore"
 
 import "../../../styles/pages/main_nsr_team/valentyna.css"
+import "../../../styles/pages/main_nsr_team/base_team_style.css"
 import { Link } from 'react-router-dom';
 
 export default function Valentyna(){
@@ -21,13 +22,15 @@ export default function Valentyna(){
                     <p data-aos="fade-right" data-aos-duration="1400">Founder of NSR, with a higher education in medical sciences
                     and 8 years of medical practice. A proponent of natural and
                     integrative approaches in holistic problem-solving for human well-being</p>
-                    <SeeMoreBtn>
-                        <Link 
+                    <Link 
                             className='teammate_see_more_btn' 
                             to={"#international_practice"}
                             onClick={() => scrollToSection('international_practice')}
-                        >SEE MORE</Link>
-                    </SeeMoreBtn>
+                    >
+                        <SeeMoreBtn>
+                            SEE MORE
+                        </SeeMoreBtn>
+                    </Link>
                 </article>
             </section>
             <section className='international_practice' id='international_practice'>
@@ -44,10 +47,10 @@ export default function Valentyna(){
                         </li>
                     </ul>
                 </article>
-                <article className='international_practice_img'></article>
+                <article className='international_practice_img valentyna_international_practice_img'></article>
             </section>
             <section className='spaecializaation' id='international_practice'>
-                <article className='specialization_img'></article>
+                <article className='specialization_img valentyna_specialization_img'></article>
                 <article className='specialization_content'>
                     <h2 className='teammate_title'>Specialization</h2>
                     <ul>

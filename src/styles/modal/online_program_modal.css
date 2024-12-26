@@ -12,7 +12,8 @@
 }
 
 .modal-content {
-    background: white;
+    background: rgba(25, 37, 36, 0.7);
+    color: var(--light-gray2-color);
     text-align: center;
     padding: 20px;
     border-radius: 10px;
@@ -30,4 +31,12 @@
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
+    color: var(--light-gray2-color);
+    font-size: 40px;
+    transition: all .1s linear
+}
+
+.modal-close:hover{
+    transform: rotate(90deg);
+    transition: all .1s linear
 }

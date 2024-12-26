@@ -24,9 +24,15 @@ export default function Intro(){
                     <h2>NaturaSanatio</h2>
                     <h2 className="retreat">RETREAT</h2>
                     <p>A journey to reneval</p>
-                    <SeeMoreBtn>
-                        <Link to="#about" className="see_more_btn" onClick={() => scrollToSection('about')}>SEE MORE</Link>
-                    </SeeMoreBtn>
+                    <Link 
+                            className="see_more_btn"
+                            to="#about"
+                            onClick={() => scrollToSection('about')}
+                    >
+                        <SeeMoreBtn>
+                            SEE MORE
+                        </SeeMoreBtn>
+                    </Link>
                 </div>
             </article>
         </section>

@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import floating_meditation from "../../../media/img/recovery_plan/on_site/floating_meditation.jpg"
-import floating_meditation2 from "../../../media/img/recovery_plan/on_site/floating_meditation2.jpg"
-import nidra from "../../../media/img/recovery_plan/on_site/nidra.jpg"
-import nidra2 from "../../../media/img/recovery_plan/on_site/nidra2.jpg"
-import sukhasana from "../../../media/img/recovery_plan/on_site/sukhasana.jpg"
-import sukhasana2 from "../../../media/img/recovery_plan/on_site/sukhasana2.jpg"
+import meditation from "../../../media/img/recovery_plan/on_site/slider/meditation.JPG"
+import nidra1 from "../../../media/img/recovery_plan/on_site/slider/nidra1.PNG"
+import nidra2 from "../../../media/img/recovery_plan/on_site/slider/nidra2.PNG"
+import sukhasana1 from "../../../media/img/recovery_plan/on_site/slider/sukhasana1.JPG"
+import sukhasana2 from "../../../media/img/recovery_plan/on_site/slider/sukhasana2.PNG"
+import sukhasana3 from "../../../media/img/recovery_plan/on_site/slider/sukhasana3.PNG"
 
 import "../../../styles/pages/on_site_program/meditation_slider.css"
 
@@ -28,19 +28,18 @@ export default function MeditationSlider(){
             prev.addEventListener("click", handlePrevClick);
         }
 
-        // Убираем обработчики событий при размонтировании компонента
         return () => {
             if (next) next.removeEventListener("click", handleNextClick);
             if (prev) prev.removeEventListener("click", handlePrevClick);
         };
-    }, []); // Пустой массив зависимостей - эффект выполнится только при монтировании
+    }, []);
     return (
         <div className="container">
 
             <div className="slide">
 
                 
-                <div className="item" style={{ backgroundImage: `url(${floating_meditation})` }}>
+                <div className="item" style={{ backgroundImage: `url(${meditation})` }}>
                     <div className="content">
                         <div className="name">Floating meditations</div>
                         <div className="des">
@@ -48,52 +47,49 @@ export default function MeditationSlider(){
                             rhythms with the natural vibrations of living water, promoting 
                             comprehensive relaxation of both body and mind
                         </div>
-                        {/* <button>See More</button> */}
                     </div>
                 </div>
-                <div className="item" style={{ backgroundImage: `url(${floating_meditation2})` }}>
-                    <div className="content">
-                        <div className="name">Floating meditations</div>
-                        <div className="des">
-                            Allows synchronization of the body's internal fluid
-                            rhythms with the natural vibrations of living water, promoting 
-                            comprehensive relaxation of both body and mind
-                        </div>
-                        {/* <button>See More</button> */}
-                    </div>
-                </div>
-                <div className="item" style={{ backgroundImage: `url(${nidra})` }}>
+                <div className="item" style={{ backgroundImage: `url(${nidra1})` }}>
                     <div className="content">
                         <div className="name">Nidra</div>
-                        <div className="des">Thanks to the relaxed body position, it allows for focused attention
-                            on the mind's deeper processes</div>
-                        {/* <button>See More</button> */}
+                        <div className="des">
+                            Thanks to the relaxed body position, it allows for focused attention
+                            on the mind's deeper processes
+                        </div>
                     </div>
                 </div>
                 <div className="item" style={{ backgroundImage: `url(${nidra2})` }}>
                     <div className="content">
                         <div className="name">Nidra</div>
-                        <div className="des">With the guidance of a facilitator, 
+                        <div className="des">
+                            With the guidance of a facilitator, 
                             participants can catch a beneficial flow of thoughts and discern the 
-                            meaningful from the trivial</div>
-                        {/* <button>See More</button> */}
+                            meaningful from the trivial
+                        </div>
                     </div>
                 </div>
-                <div className="item" style={{ backgroundImage: `url(${sukhasana})` }}>
+                <div className="item" style={{ backgroundImage: `url(${sukhasana1})` }}>
                     <div className="content">
                         <div className="name">Sukhasana</div>
-                        <div className="des">A classic form of meditation that, through a seated posture, enhance
-                            focus and concentration on the meditative process</div>
-                        {/* <button>See More</button> */}
+                        <div className="des">
+                            The Sukhasana pose is a simple yoga asana, typically performed as 
+                            a warm-up starting pose or finishing pose during yoga practice.
+                        </div>
                     </div>
                 </div>
                 <div className="item" style={{ backgroundImage: `url(${sukhasana2})` }}>
                     <div className="content">
                         <div className="name">Sukhasana</div>
+                        <div className="des">A classic form of meditation that, through a seated posture, enhance
+                            focus and concentration on the meditative process</div>
+                    </div>
+                </div>
+                <div className="item" style={{ backgroundImage: `url(${sukhasana3})` }}>
+                    <div className="content">
+                        <div className="name">Sukhasana</div>
                         <div className="des">It aids in scanning
                             and analizyng body signals, effectively stimulates the brain, and facilitates
                             the flow of life energy</div>
-                        {/* <button>See More</button> */}
                     </div>
                 </div>
 
