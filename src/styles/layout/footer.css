@@ -16,6 +16,7 @@
     flex-basis: 25%;
     border-right: 1px var(--light-gray2-color) solid;
     padding: 0 1rem 0 0;
+    text-align: center;
 }
 
 .footer_title > h2{
@@ -123,5 +124,13 @@
         border: none;
         flex-basis: 100%;
         text-align: center;
+    }
+
+    .footer_title{
+        padding: 0;
+    }
+
+    .footer_title > h2{
+        font-size: 40px;
     }
 }

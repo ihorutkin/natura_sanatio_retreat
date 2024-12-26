@@ -5,10 +5,11 @@ import "../../styles/layout/footer.css"
 
 export default function Footer(){
     return (
-        <footer className="footer_container">
+        <footer className="footer_container" id="footer">
             <div className="footer_content">
                 <article className="footer_title">
-                    <h2>NATURA SANATIO RETREAT</h2>
+                    <h2>NaturaSanatio</h2>
+                    <h2>RETREAT</h2>
                 </article>
                 <nav className="footer_navigation">
                     <h2>LINKS</h2>

@@ -6,6 +6,13 @@ import "../../styles/layout/header.css";
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
 
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     return (
@@ -37,7 +44,7 @@ export default function Header() {
                 <div className="header_contact">
                     <div className="header_contact_block">
                         <div className="header_call"></div>
-                        <Link to={"#footer"} className="header_contact_link">Contact</Link>
+                        <Link to={"#footer"} className="header_contact_link" onClick={() => scrollToSection('footer')}>Contact</Link>
                     </div>
                     <div className="header_lang_block">
                         <div className="header_lang_switch"></div>
