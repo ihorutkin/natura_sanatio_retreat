@@ -1,6 +1,7 @@
 .about{
     width: 100vw;
     background-image: url("../../../media/img/main/about.JPG");
+    /* background-size: cover; */
     color: var(--light-gray2-color);
     margin: 10px 0 5px 0;
     padding-top: 3rem;

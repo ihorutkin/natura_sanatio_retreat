@@ -18,7 +18,7 @@ export default function Layout({ children }){
         });
     }, [])
     return (
-        <div>
+        <div style={{ overflow: "hidden" }}>
             <Header />
             { children }
             <Footer />

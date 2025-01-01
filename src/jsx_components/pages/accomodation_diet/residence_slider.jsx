@@ -39,7 +39,7 @@ export default function ResidenceSlider(){
                 }}
                 loop={true}
                 initialSlide={2}
-                pagination={true}
+                // pagination={true}
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiper"
             >

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import meditation from "../../../media/img/recovery_plan/on_site/slider/meditation.JPG"
+// import meditation from "../../../media/img/recovery_plan/on_site/slider/meditation.JPG"
 import nidra1 from "../../../media/img/recovery_plan/on_site/slider/nidra1.PNG"
 import nidra2 from "../../../media/img/recovery_plan/on_site/slider/nidra2.PNG"
 import sukhasana1 from "../../../media/img/recovery_plan/on_site/slider/sukhasana1.JPG"
@@ -39,7 +39,7 @@ export default function MeditationSlider(){
             <div className="slide">
 
                 
-                <div className="item" style={{ backgroundImage: `url(${meditation})` }}>
+                {/* <div className="item" style={{ backgroundImage: `url(${meditation})` }}>
                     <div className="content">
                         <div className="name">Floating meditations</div>
                         <div className="des">
@@ -48,7 +48,7 @@ export default function MeditationSlider(){
                             comprehensive relaxation of both body and mind
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="item" style={{ backgroundImage: `url(${nidra1})` }}>
                     <div className="content">
                         <div className="name">Nidra</div>

@@ -30,21 +30,25 @@
 .maryana{
     background-image: url("../../media/img/NSR_team/maryana_hudyma.jpg");
     background-position: center;
+    background-size: cover;
 }
 
 .valentyna{
     background-image: url("../../media/img//NSR_team/valentyna.jpg");
     background-position: center;
+    background-size: cover;
 }
 
 .prasad{
     background-image: url("../../media/img/NSR_team/prasad.jpg");
     background-position: center;
+    background-size: cover;
 }
 
 .artemyi{
-    background-image: url("../../media/img/NSR_team/artemyi.jpg");
+    background-image: url("../../media/img/NSR_team/artemyi1.PNG");
     background-position: center;
+    background-size: cover;
 }
 
 .teammate .name {
@@ -77,6 +81,58 @@
     z-index: 2;
 }
 
+/* Team block */
+
+.team_container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team_container > h2{
+    font-family: "Rufina", serif;
+    font-size: 46px;
+}
+
+.team_block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.teammate_text{
+    /* flex-basis: 65%; */
+    flex: 1 300px 68%;
+    min-width: 300px;
+}
+
+.teammate_text > div > p > span{
+    font-weight: bold;
+}
+
+.teammate_content{
+    flex: 0.8 200px 20%;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teammate_img{
+    height: 400px;
+    border-radius: 5px;
+}
+
+.teammate_name{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.teammate_position{
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
 @media (max-width: 1100px){
     .main_nsr_team{
         flex-direction: column;
@@ -86,5 +142,19 @@
 
     .teammate{
         flex-basis: 100%;
+    }
+}
+
+@media(max-width: 800px){
+    .team_container > h2{
+        font-size: 32px;
+    }
+
+    .team_block{
+        padding: 0 1rem;
+    }
+
+    .teammate_text{
+        font-size: 12px;
     }
 }

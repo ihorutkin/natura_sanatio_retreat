@@ -59,9 +59,9 @@
     gap: 1rem;
 }
 
-.footer_contacts > p{
-    line-height: 0;
-}
+/* .footer_contacts > p{
+    line-height: auto;
+} */
 
 .footer_contacts > p > a{
     text-decoration: none;
