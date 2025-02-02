@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../../../styles/pages/on_site_program/yoga.css"
+import AOS from "aos"
 
 export default function Yoga(){
     return (

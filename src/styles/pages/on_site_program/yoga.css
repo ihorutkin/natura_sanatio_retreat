@@ -68,11 +68,11 @@
     }
 
     .yoga_images > div {
-        position: static; /* Убираем абсолютное позиционирование для элементов */
-        flex: 1 1 250px; /* Элементы растягиваются на всю ширину контейнера */
-        max-width: 100%; /* Ограничиваем ширину */
-        height: auto; /* Автоматическая высота для адаптации */
-        min-height: 300px; /* Минимальная высота для сохранения пропорций */
-        background-size: cover; /* Убедимся, что изображение занимает весь элемент */
+        position: static;
+        flex: 1 1 250px;
+        max-width: 100%;
+        height: auto;
+        min-height: 300px;
+        background-size: cover;
     }  
 }

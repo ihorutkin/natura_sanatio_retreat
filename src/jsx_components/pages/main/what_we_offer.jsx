@@ -7,7 +7,6 @@ export default function WhatWeOffer(){
         <section className="offers_container" id="what_we_offer">
             <div className="offers_block">
                 <div className="offers_content">
-                    <article className="offers_img"  data-aos="fade-right" data-aos-duration="1000"></article>
                     <article className="offers_text_block">
                         <div className="offers_title" data-aos="fade-left" data-aos-duration="1000">
                             <h2>What we offer</h2>

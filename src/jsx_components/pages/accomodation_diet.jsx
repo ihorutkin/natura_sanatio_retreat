@@ -62,7 +62,7 @@ export default function AccomodationAndDietPage(){
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <div className='slide slide2'>
                         <div className="content">
                             <h2 className={`${animationClass}`}>RESIDENCE OVERVIEW</h2>
@@ -77,7 +77,7 @@ export default function AccomodationAndDietPage(){
                             </Link>
                         </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide>
                     <div className='slide slide3'>
                         <div className="content">

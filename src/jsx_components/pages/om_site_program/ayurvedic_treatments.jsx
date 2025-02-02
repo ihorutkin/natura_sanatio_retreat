@@ -1,6 +1,6 @@
 import React from "react";
 import massage from "../../../media/img/recovery_plan/on_site/massage.jpg"
-import shirodhara from "../../../media/img/recovery_plan/on_site/Shirodhara.jpg"
+import shirodhara from "../../../media/img/recovery_plan/on_site/Shirodhara1.jpg"
 import acupuncture from "../../../media/img/recovery_plan/on_site/acupuncture.jpg"
 
 import "../../../styles/pages/on_site_program/ayurvedic_treatments.css"
@@ -10,7 +10,7 @@ export default function AyurvedicTreatments(){
         <article className="ayurvedic_treatments">
             <h2 className="block_title" data-aos="fade-up" data-aos-duration="600">Ayurvedic treatments</h2>
             <div className="ayurvedic_treatments_block">
-                <div className="ayurcedic_img" data-aos="fade-up" data-aos-duration="600">
+                <div className="ayurcedic_img">
                     <img src={massage} alt=""></img>
                     <div className="ayurvedic_treatment_img_content">
                         <h2>Massage treatment</h2>
@@ -20,7 +20,7 @@ export default function AyurvedicTreatments(){
                         </p>
                     </div>
                 </div>
-                <div className="ayurcedic_img second_ayurcedic_img" data-aos="fade-up" data-aos-duration="800">
+                <div className="ayurcedic_img second_ayurcedic_img">
                     <img src={shirodhara} alt=""></img>
                     <div className="ayurvedic_treatment_img_content">
                         <h2>Shirodhara</h2>
@@ -30,7 +30,7 @@ export default function AyurvedicTreatments(){
                         </p>
                     </div>
                 </div>
-                <div className="ayurcedic_img" data-aos="fade-up" data-aos-duration="1000">
+                <div className="ayurcedic_img">
                     <img src={acupuncture} alt=""></img>
                     <div className="ayurvedic_treatment_img_content">
                         <h2>Acupuncture</h2>

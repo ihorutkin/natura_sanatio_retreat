@@ -52,6 +52,7 @@
     width: 100%;
     background: #000;
     opacity: 0.5;
+    transition: all .3s linear;
 }
 
 .ayurvedic_treatment_img_content > h2{
