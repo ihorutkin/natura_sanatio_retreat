@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 
-import "../../../styles/pages/on_site_program/yoga.css"
-import AOS from "aos"
+import "../../../styles/pages/on_site_program/yoga.css";
 
 export default function Yoga(){
     return (

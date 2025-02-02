@@ -1,5 +1,6 @@
 import './App.css';
-import { Routes, Route } from "react-router-dom"
+import {useEffect} from 'react';
+import { Routes, Route, useLocation } from "react-router-dom"
 import MainPage from "./jsx_components/pages/main"
 import RecoveryProgramPlanPage from "./jsx_components/pages/recovery_program_plan"
 import AccomodationAndDietPage from "./jsx_components/pages/accomodation_diet"
@@ -11,10 +12,15 @@ import Valentyna from './jsx_components/pages/main_nsr_team/valentyna';
 import Prasad from './jsx_components/pages/main_nsr_team/prasad';
 import Artemyi from './jsx_components/pages/main_nsr_team/artemyi';
 import AOS from "aos"
-
+import "aos/dist/aos.css";
 
 function App() {
-  AOS.init();
+  let location = useLocation()
+  useEffect(() => {
+    setTimeout(() => {
+      AOS.init();
+    }, 200);
+  }, [location]);
   return (
     <Routes>
       <Route

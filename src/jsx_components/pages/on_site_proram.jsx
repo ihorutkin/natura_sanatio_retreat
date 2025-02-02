@@ -8,10 +8,8 @@ import CosmetologicalCare from "./om_site_program/cosmetological_care";
 import GroupTherapy from "./om_site_program/group_therapy";
 
 import "../../styles/pages/on_site_program.css"
-import AOS from "aos"
 
 export default function OnSiteProgramPage(){
-    AOS.init();
     return(
         <Layout>
             <section className="on_site_container">

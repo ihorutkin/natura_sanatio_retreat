@@ -10,7 +10,7 @@ export default function AyurvedicTreatments(){
         <article className="ayurvedic_treatments">
             <h2 className="block_title" data-aos="fade-up" data-aos-duration="600">Ayurvedic treatments</h2>
             <div className="ayurvedic_treatments_block">
-                <div className="ayurcedic_img">
+                <div className="ayurcedic_img" data-aos="fade-up" data-aos-duration="600">
                     <img src={massage} alt=""></img>
                     <div className="ayurvedic_treatment_img_content">
                         <h2>Massage treatment</h2>
@@ -20,7 +20,7 @@ export default function AyurvedicTreatments(){
                         </p>
                     </div>
                 </div>
-                <div className="ayurcedic_img second_ayurcedic_img">
+                <div className="ayurcedic_img second_ayurcedic_img" data-aos="fade-up" data-aos-duration="1000">
                     <img src={shirodhara} alt=""></img>
                     <div className="ayurvedic_treatment_img_content">
                         <h2>Shirodhara</h2>
@@ -30,7 +30,7 @@ export default function AyurvedicTreatments(){
                         </p>
                     </div>
                 </div>
-                <div className="ayurcedic_img">
+                <div className="ayurcedic_img" data-aos="fade-up" data-aos-duration="1400">
                     <img src={acupuncture} alt=""></img>
                     <div className="ayurvedic_treatment_img_content">
                         <h2>Acupuncture</h2>
