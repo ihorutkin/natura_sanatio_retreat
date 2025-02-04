@@ -1,0 +1,117 @@
+.natura_sanatio_container{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 2rem;
+}
+
+.natura_sanatio_title{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 4rem;
+}
+
+.natura_sanatio_title > h2{
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 4rem;
+    font-family: "Rufina", serif;
+}
+
+.natura_sanatio_title > p{
+    text-align: center;
+}
+
+.natura_sanatio_items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.natura_sanatio_item{
+    width: 100%;
+    flex-basis: 30%;
+    background-color: white;
+}
+
+.natira_sanatio_img_container{
+    height: 300px;
+    overflow: hidden;
+}
+
+.natura_sanatio_img{
+    height: 100%;
+    transition: all .3s linear;
+}
+
+.natura_sanatio_img:hover{
+    transform: scale(1.1);
+    transition: all .3s linear;
+}
+
+.natura_sanatio_item_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.natura_sanatio_text{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.natura_sanatio_explore_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px var(--dark-green-color) solid;
+    border-radius: 50%;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    color: var(--dark-green-color);
+}
+
+.natura_sanatio_arrow{
+    transition: all .3s linear;
+}
+
+.natura_sanatio_explore_link:hover .natura_sanatio_arrow{
+    padding-left: 2.5rem;
+    transition: all .3s linear;
+}
+
+.nsr_img_1{
+    background-image: url("../../../media/img/main/sri_lanka/beach.avif");
+    background-size: cover;
+}
+
+.nsr_img_2{
+    background-image: url("../../../media/img/main/sri_lanka/animal.jpg");
+    background-size: cover;
+}
+
+.nsr_img_3{
+    background-image: url("../../../media/img/main/sri_lanka/mountain.webp");
+    background-size: cover;
+}
+
+.nsr_img_4{
+    background-image: url("../../../media/img/main/sri_lanka/culture.webp");
+    background-size: cover;
+}
+
+.nsr_img_5{
+    background-image: url("../../../media/img/main/sri_lanka/food.avif");
+    background-size: cover;
+}
+
+.nsr_img_6{
+    background-image: url("../../../media/img/main/sri_lanka/religion.jpg");
+    background-size: cover;
+}

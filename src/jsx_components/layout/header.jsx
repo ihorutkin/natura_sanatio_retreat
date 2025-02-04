@@ -44,7 +44,7 @@ export default function Header() {
                 <div className="header_contact">
                     <div className="header_contact_block">
                         <div className="header_call"></div>
-                        <Link to={"#footer"} className="header_contact_link" onClick={() => scrollToSection('footer')}>Contact</Link>
+                        <Link to={"/contact"} className="header_contact_link">Contact</Link>
                     </div>
                     <div className="header_lang_block">
                         <div className="header_lang_switch"></div>

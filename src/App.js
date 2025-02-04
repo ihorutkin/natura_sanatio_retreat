@@ -11,6 +11,7 @@ import Maryana from './jsx_components/pages/main_nsr_team/maryana';
 import Valentyna from './jsx_components/pages/main_nsr_team/valentyna';
 import Prasad from './jsx_components/pages/main_nsr_team/prasad';
 import Artemyi from './jsx_components/pages/main_nsr_team/artemyi';
+import ContactForm from './jsx_components/pages/contact';
 import AOS from "aos"
 import "aos/dist/aos.css";
 
@@ -46,6 +47,10 @@ function App() {
       <Route
         path='/main_nsr_team'
         element={<MainNSRTeamPage />}
+      />
+      <Route
+        path='/contact'
+        element={<ContactForm />}
       />
       <Route
         path='/main_nsr_team/maryana'
