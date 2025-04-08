@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/natura_sanatio_retreat/static/css/main.c0f0b646.css",
-    "main.js": "/natura_sanatio_retreat/static/js/main.1a128304.js",
+    "main.css": "/natura_sanatio_retreat/static/css/main.aad71dc8.css",
+    "main.js": "/natura_sanatio_retreat/static/js/main.f2697653.js",
     "static/media/13234027-uhd_3840_2160_30fps.mp4": "/natura_sanatio_retreat/static/media/13234027-uhd_3840_2160_30fps.5f78050cb6bf285dabc6.mp4",
     "static/media/sukhasana2.PNG": "/natura_sanatio_retreat/static/media/sukhasana2.efcd16cc76bc24a3333c.PNG",
     "static/media/yoga1.PNG": "/natura_sanatio_retreat/static/media/yoga1.efcd16cc76bc24a3333c.PNG",
@@ -75,11 +75,11 @@
     "static/media/facebook.png": "/natura_sanatio_retreat/static/media/facebook.49e67d43221b6bb1aa86.png",
     "static/media/call-out_16340067.png": "/natura_sanatio_retreat/static/media/call-out_16340067.e09529d984bda87fbb1f.png",
     "index.html": "/natura_sanatio_retreat/index.html",
-    "main.c0f0b646.css.map": "/natura_sanatio_retreat/static/css/main.c0f0b646.css.map",
-    "main.1a128304.js.map": "/natura_sanatio_retreat/static/js/main.1a128304.js.map"
+    "main.aad71dc8.css.map": "/natura_sanatio_retreat/static/css/main.aad71dc8.css.map",
+    "main.f2697653.js.map": "/natura_sanatio_retreat/static/js/main.f2697653.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0f0b646.css",
-    "static/js/main.1a128304.js"
+    "static/css/main.aad71dc8.css",
+    "static/js/main.f2697653.js"
   ]
 }
