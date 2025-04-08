@@ -135,13 +135,10 @@
 
 @media (max-width: 1100px){
     .main_nsr_team{
-        flex-direction: column;
-        width: 100vw;
-        height: 400vh;
+        display: none;
     }
-
-    .teammate{
-        flex-basis: 100%;
+    .team_container{
+        margin-top: 8rem;
     }
 }
 
