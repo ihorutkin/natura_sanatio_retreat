@@ -34,7 +34,7 @@
 }
 
 .valentyna{
-    background-image: url("../../media/img//NSR_team/valentyna.jpg");
+    background-image: url("../../media/img//NSR_team/valentyna1.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -47,6 +47,12 @@
 
 .artemyi{
     background-image: url("../../media/img/NSR_team/artemyi1.PNG");
+    background-position: center;
+    background-size: cover;
+}
+
+.essam{
+    background-image: url("../../media/img/NSR_team/Essam.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -87,6 +93,7 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 7rem;
 }
 
 .team_container > h2{

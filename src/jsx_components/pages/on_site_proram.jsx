@@ -11,16 +11,16 @@ import "../../styles/pages/on_site_program.css"
 
 export default function OnSiteProgramPage(){
     return(
-        <Layout>
-            <section className="on_site_container">
+        // <Layout>
+            <section className="on_site_container" id="onsite_program">
                 <h2>ON-SITE PROGRAM</h2>
                 <IndividualConsultation />
                 <AyurvedicTreatments />
                 <Meditation />
                 <Yoga />
                 <CosmetologicalCare />
-                <GroupTherapy />
+                {/* <GroupTherapy /> */}
             </section>
-        </Layout>
+        // </Layout>
     )
 }

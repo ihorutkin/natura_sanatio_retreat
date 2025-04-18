@@ -1,15 +1,14 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay } from 'swiper/modules';
+import { EffectCards, Autoplay } from 'swiper/modules';
 
 import Layout from "../layout/layout"
 import SeeMoreBtn from '../buttons/seeMore';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
+import 'swiper/css/effect-cards';
 
 import "../../styles/pages/accomodation_diet.css"
 import ResidenceSlider from './accomodation_diet/residence_slider';
@@ -20,22 +19,15 @@ export default function AccomodationAndDietPage(){
     const [animationClass, setAnimationClass] = useState("");
 
     const handleSlideChange = () => {
-        // Удаляем анимацию и добавляем заново
         setTimeout(() => {
             setAnimationClass("fadeIn");
         }, 10);
         setAnimationClass("");
     };
 
-    const scrollToSection = (sectionId) => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
     return(
-        <Layout>
-            <Swiper
+        <>
+            {/* <Swiper
                 navigation={true}
                 modules={[Navigation, Autoplay]}
                 className="mySwiper"
@@ -62,22 +54,7 @@ export default function AccomodationAndDietPage(){
                         </div>
                     </div>
                 </SwiperSlide>
-                {/* <SwiperSlide>
-                    <div className='slide slide2'>
-                        <div className="content">
-                            <h2 className={`${animationClass}`}>RESIDENCE OVERVIEW</h2>
-                            <Link 
-                                className="see_more_btn"
-                                to="#residence_overview"
-                                onClick={() => scrollToSection('residence_overview')}
-                            >
-                                <SeeMoreBtn>
-                                    SEE MORE
-                                </SeeMoreBtn>
-                            </Link>
-                        </div>
-                    </div>
-                </SwiperSlide> */}
+
                 <SwiperSlide>
                     <div className='slide slide3'>
                         <div className="content">
@@ -94,47 +71,80 @@ export default function AccomodationAndDietPage(){
                         </div>
                     </div>
                 </SwiperSlide>
-            </Swiper>
-            <article className='accomodation_overview' id='accomodation_overview'>
-                <div className='accomodation_content'>
-                    <h2>Overview of accomodation</h2>
-                    <ul>
-                        <li>Comfortable and serene settings</li>
-                        <li>Surrounded by nature</li>
-                        <li>Designed for relaxation</li>
-                        <li>In-house wellness facilities</li>
-                        <li>Quiet spaces for reflection</li>
-                    </ul>
+            </Swiper> */}
+            <article className='accomodation_overview' id='accomodation_and_diet'>
+                <h2>Overview of accomodation</h2>
+                <p>Peaceful jungle villas, fully isolated from external noise. 
+                Conveniently located: 15 minutes on foot or 5 minutes by vehicle 
+                from the city center and ocean shore.</p>
+                <div className='accomodation_overview_coontent'>
+                    <div className='accomodation_content'>
+                        {/* <h2>Overview of accomodation</h2> */}
+                        <p style={{ fontWeight: 'bold' }}>Each villa includes:</p>
+                        <ul>
+                            <li>King-size bed</li>
+                            <li>Private modern bathroom with amenities</li>
+                            <li>Riverside balcony</li>
+                            <li>Air conditioning</li>
+                            <li>Mini fridge</li>
+                        </ul>
+                        <p style={{ fontWeight: 'bold' }}>Facilities:</p>
+                        <ul>
+                            <li>Private green territory with a riverside restaurant and rooftop yoga zone</li>
+                            <li>Shared kitchen and staff kitchen</li>
+                            <li>SUP boards for river rafting</li>
+                            <li>Friendly local animals: peacocks, monkeys, chipmunks, fish, and more</li>
+                        </ul>
+                    </div>
+                    <div className='accomodation_img'>
+                        <Swiper
+                            effect={'cards'}
+                            grabCursor={true}
+                            modules={[EffectCards, Autoplay]}
+                            loop={true}
+                            autoplay={{
+                                delay: 7000,
+                                disableOnInteraction: false,
+                            }}
+                            className="mySwiper"
+                        >
+                            <SwiperSlide></SwiperSlide>
+                            <SwiperSlide></SwiperSlide>
+                            <SwiperSlide></SwiperSlide>
+                            <SwiperSlide></SwiperSlide>
+                            <SwiperSlide></SwiperSlide>
+                            <SwiperSlide></SwiperSlide>
+                            <SwiperSlide></SwiperSlide>
+                            <SwiperSlide></SwiperSlide>
+                            <SwiperSlide></SwiperSlide>
+                        </Swiper>
+                    </div>
                 </div>
-                <div className='accomodation_img'></div>
             </article>
-            <article className='residence_overview' id='residence_overview'>
+            <article className='residence_overview'>
                 <h2>Residence overview</h2>
                 <p>The place we are in and our surroundings directly impact our overall
                 well-being. Complete isolation from city noise, fresh clean air, birdsongs, 
                 and the sound of water amidst lush jungles - this is what awaits you in our 
                 NSR program</p>
-                <p className='residence_down_text'>-- Nature is the best healer --</p>
+                <p className='residence_down_text' data-aos="fade-up">-- Nature is the best healer --</p>
                 <ResidenceSlider/>
             </article>
             <article className='food' id='food'>
                 <h2>Food</h2>
                 <div className='food_container'>
                     <div className='food_left_text'>
-                        <p data-aos="fade-right" data-aos-duration="600">You will enjoy balanced meals twice daily.</p>
-                        <p data-aos="fade-right" data-aos-duration="600">Homemade dishes are 
-                        prepared from organic, natural ingredients based on nutritionist recipes,
-                        along with fresh juices and special herbal tea throughout the day.</p>
+                        <p data-aos="fade-right" data-aos-duration="600">Only natural, organic food – free from GMOs, pesticides, and hormones</p>
+                        <p data-aos="fade-right" data-aos-duration="600">Balanced, health-supporting nutrition</p>
                     </div>
                     <div className='food_slider_container'>
                         <FoodSlider />
                     </div>
                     <div className='food_right_text'>
-                        <p data-aos="fade-left" data-aos-duration="600">The diet is designed for detoxification and body cleansing, weight
-                        loss and the restoration of your body's biochemical balance.</p>
+                        <p data-aos="fade-left" data-aos-duration="600">Fresh, smoothies, juices and herbal teas available throughout the day</p>
                     </div>
                 </div>
             </article>
-        </Layout>
+        </>
     )
 }

@@ -1,6 +1,5 @@
 .offers_container{
     width: 100%;
-    /* margin: 5px 0; */
     background-image: url("../../../media/img/main/what_we_offer3.jpg");
     background-size: cover;
     background-position: center;
@@ -26,9 +25,11 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    min-width: 250px;
-    flex-basis: 50%;
-    padding: 10rem 2rem;
+    width: 100%;
+    align-items: center;
+    /* min-width: 250px; */
+    /* flex-basis: 50%; */
+    padding: 4rem 2rem;
     height: auto;
     z-index: 1;
     color: var(--light-gray2-color);
@@ -47,6 +48,7 @@
 .offers_title > h2{
     font-family: "Rufina", serif;
     font-size: 46px;
+    text-align: center;
 }
 
 .offers_title > p{
@@ -54,20 +56,34 @@
     font-size: 20px;
 }
 
-.offer_item {
-    padding: 5px 0;
-    list-style-type: none;
-    position: relative;
+.packages_container{
+    display: flex;
+    justify-content: space-between;
+    color: var(--dark-green-color);
+    flex-wrap: wrap;
+    gap: 1rem;
+    z-index: 10;
 }
 
-.offer_item::before {
-    content: "❀";
-    position: absolute;
-    left: 0;
+.package_item{
+    flex: 1 1 300px;
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    background: var(--light-gray2-color);
+    /* text-align: center; */
 }
 
-.offer_item {
-    padding-left: 30px;
+.package_item > ul > li{
+    /* list-style: none; */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.package_title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
 }
 
 @media(max-width: 700px){

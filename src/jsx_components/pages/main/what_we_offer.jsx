@@ -12,15 +12,74 @@ export default function WhatWeOffer(){
                             <h2>What we offer</h2>
                             <p>Get your first step for new life with us!</p>
                         </div>
-                        <ul className="offers_list">
-                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Individual approach to everyone</li>
-                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Comprehensive analyses of mental and physical conditions by experts </li>
-                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Group mind and body therapies </li>
-                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Individual mind and body therapies </li>
-                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Educational programs for mind resetting</li>
-                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Diet tailored to body type </li>
-                            <li className="offer_item" data-aos="fade-left" data-aos-duration="800">Comfortable and peaceful accommodation </li>
-                        </ul>
+                        <div className="packages_container">
+
+                            <div className="package_item">
+                                <p class="package_title">Rest & Joy (5 Days)</p>
+                                <ul>
+                                    <li>Accommodation</li>
+                                    <li>Diet – two organic meals per day</li>
+                                    <li>Massage (with acupuncture if needed) – daily</li>
+                                    <li>Surf Training – 2 to 3 sessions during your stay</li>
+                                    <li>Yoga – daily</li>
+                                    <li>Meditation – daily</li>
+                                    <li>Safari lagoon trip</li>
+                                </ul>
+                                <p style={{fontWeight: 'bold', textAlign: 'center'}}>Expected Results:</p>
+                                <ul>
+                                    <li>Deep physical relaxation and stress relief through therapeutic massage and acupuncture</li>
+                                    <li>Enhanced connection with nature and inner peace through lagoon safari and meditation</li>
+                                    <li>Improved flexibility, strength, and balance from daily yoga practice</li>
+                                    <li>A more mindful and present state of being, inspired by daily meditative practice</li>
+                                    <li>Lasting memories and a sense of joy from unique adventures and serene surroundings</li>
+                                </ul>
+                            </div>
+
+                            <div className="package_item">
+                                <p class="package_title">Full Experience (7 Days)</p>
+                                <p style={{fontWeight: 'bold', textAlign: 'center'}}>Online Preparation:</p>
+                                <ul>
+                                    <li>Ayurvedic Doctor Consultation – including DOSHA analysis and personalized lifestyle advice</li>
+                                    <li>Clinical Analysis – bloodwork + consultation with a therapist</li>
+                                    <li>Psychology Session – including tests to assess temperament and mental state</li>
+                                    <li>Personal Numerology Analysis – delivered in PDF format</li>
+                                    <li>Consultation with an Eating Behavior Specialist</li>
+                                    <li>Personalized Skincare Recommendations (if needed)</li>
+                                </ul>
+                                <p style={{fontWeight: 'bold', textAlign: 'center'}}>On-Site Experience:</p>
+                                <ul>
+                                    <li>Accommodation + personalized diet</li>
+                                    <li>Yoga & Meditation</li>
+                                    <li>Face and Body Therapies</li>
+                                    <li>Surfing Classes</li>
+                                    <li>Safari Tour</li>
+                                    <li>Psychiatric Support (if needed)</li>
+                                    <li>2-Day Vipassana Retreat – a meditative immersion in full silence, based on ancient monastic techniques for deep self-exploration</li>
+                                </ul>
+                            </div>
+
+                            <div className="package_item">
+                                <p class="package_title">Basic Retreat (5 Days)</p>
+                                <ul>
+                                    <li>Accommodation – a private villa with an isolated, suprariverine balcony</li>
+                                    <li>Diet – enjoy healthy organic meals twice a day (we accommodate all dietary needs: vegan, vegetarian, pescetarian, etc.)</li>
+                                    <li>Massage Therapy – daily treatments to restore your physical body and energy flow</li>
+                                    <li>Yoga – daily sessions</li>
+                                    <li>Meditation – daily, following the Vipassana tradition</li>
+                                </ul>
+                                <p style={{fontWeight: 'bold', textAlign: 'center'}}>Expected Results:</p>
+                                <ul>
+                                    <li>Full mental, physical, and spiritual recharge</li>
+                                    <li>Improvement in general health</li>
+                                    <li>Normalization of digestion and potential weight balance</li>
+                                    <li>Increased mobility</li>
+                                    <li>Acquisition of practical knowledge and self-care skills</li>
+                                    <li>A sense of harmony with yourself and the world</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
                     </article>
                 </div>
             </div>

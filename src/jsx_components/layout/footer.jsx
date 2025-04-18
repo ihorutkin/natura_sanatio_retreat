@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { scrollToSection } from "../../utils/scroll"
 
 import "../../styles/layout/footer.css"
 
@@ -13,22 +14,12 @@ export default function Footer(){
                 </article>
                 <nav className="footer_navigation">
                     <h2>LINKS</h2>
-                    <Link 
-                        to={"/"} 
-                        className="footer_link"
-                    >home</Link>
-                    <Link 
-                        to={"/recovery_plan"} 
-                        className="footer_link"
-                    >recovery plan</Link>
-                    <Link 
-                        to={"/accomodation_and_diet"} 
-                        className="footer_link"
-                    >accomodation and diet</Link>
-                    <Link 
-                        to={"/main_nsr_team"} 
-                        className="footer_link"
-                    >main NSR team</Link>
+                    <Link to={"/"} className="footer_link">home</Link>
+                    <Link onClick={() => scrollToSection('about')} className="footer_link">about</Link>
+                    <Link onClick={() => scrollToSection('accomodation_and_diet')} className="footer_link">accommodation and diet</Link>
+                    <Link onClick={() => scrollToSection('online_program')} className="footer_link">Online</Link>
+                    <Link onClick={() => scrollToSection('onsite_program')} className="footer_link">On-site</Link>
+                    <Link to={"/main_nsr_team"} className="footer_link">main NSR team</Link>
                 </nav>
                 <article className="footer_contacts">
                     <h2>CONTACT INFORMATION</h2>

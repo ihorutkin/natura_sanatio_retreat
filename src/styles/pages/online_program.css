@@ -49,7 +49,7 @@
     color: var(--light-gray1-color);
     padding: 2rem;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
     flex-wrap: wrap;
 }
 

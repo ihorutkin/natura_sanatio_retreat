@@ -6,16 +6,10 @@ import "../../styles/pages/main_nsr_team.css"
 import { Link } from "react-router-dom";
 
 export default function MainNSRTeamPage(){
-    const scrollToSection = (sectionId) => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
     return(
         <Layout>
-             <section className="main_nsr_team_container">
-                <article className="main_nsr_team">
+            <section className="main_nsr_team_container">
+                {/* <article className="main_nsr_team">
                     <div className="teammate valentyna">
                         <div className="name">
                             Valentyna Smiy
@@ -72,7 +66,7 @@ export default function MainNSRTeamPage(){
                             </Link>
                         </div>
                     </div>
-                </article>
+                </article> */}
                 <article className="team_container">
                     <h2>Founder of NSR</h2>
                     <p className="teammate_position">B.S. Cosmetology, KAAFM Medicine and Health Science</p>
@@ -219,6 +213,52 @@ export default function MainNSRTeamPage(){
                             <div className="teammate_title">
                                 <p className="teammate_name">Maryana Hudyma</p>
                                 <p className="teammate_position">Medical. Psychologist. Body-Oriented Psychotherapist.</p>
+                            </div>
+                            A highly trained psychologist and medical specialist with expertise in 
+                            body-oriented psychotherapy, emphasizing self-awareness as the foundation 
+                            for deep psychological transformation. By integrating somatic therapy with 
+                            cognitive and emotional exploration, the therapeutic approach facilitates 
+                            profound personal growth, emotional resilience, and inner harmony.
+                            <ul>
+                                <li style={{listStyle: "none", marginTop: "1rem"}}>
+                                    <span style={{fontWeight: "bold"}}>Emotional Regulation & Anxiety Management: </span> 
+                                    Addressing deep-seated fears, anxiety, and emotional dysregulation through somatic 
+                                    awareness and therapeutic interventions.
+                                </li>
+                                <li style={{listStyle: "none", marginTop: "1rem"}}>
+                                    <span style={{fontWeight: "bold"}}>Self-Esteem & Identity Development: </span> 
+                                    Working with core beliefs that shape self-perception, self-worth, and confidence.
+                                </li>
+                                <li style={{listStyle: "none", marginTop: "1rem"}}>
+                                    <span style={{fontWeight: "bold"}}>Self-Love & Personal Acceptance: </span> 
+                                    Unraveling subconscious barriers to self-compassion, authenticity, and fulfillment.
+                                </li>
+                                <li style={{listStyle: "none", marginTop: "1rem"}}>
+                                    <span style={{fontWeight: "bold"}}>Life Transitions & Decision-Making: </span> 
+                                    Guiding individuals through moments of uncertainty, helping them align with their true path.
+                                </li>
+                            </ul>
+                            <div>
+                                <p><span>Therapeutic Philosophy</span></p>
+                            </div>
+                            <p>
+                                The external world mirrors our internal landscape. Only 
+                                through self-awareness, acceptance, and transformation of 
+                                limiting beliefs can individuals reconnect with their authentic 
+                                selves, unlock their potential, and navigate life with clarity 
+                                and purpose.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="team_block" id="maryana">
+                        <div className="teammate_content">
+                            <div className="teammate_img essam"></div>
+                        </div>
+                        <div className="teammate_text">
+                            <div className="teammate_title">
+                                <p className="teammate_name">Dr. Essam Al-Saleh, MD</p>
+                                <p className="teammate_position">A distinguished medical professional affiliated with the Ministry 
+                                of National Guard Health Affairs (MNGHA) and the owner of Al-Saleh Hospital.</p>
                             </div>
                             A highly trained psychologist and medical specialist with expertise in 
                             body-oriented psychotherapy, emphasizing self-awareness as the foundation 

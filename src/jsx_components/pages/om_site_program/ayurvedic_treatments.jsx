@@ -1,5 +1,5 @@
 import React from "react";
-import massage from "../../../media/img/recovery_plan/on_site/massage.jpg"
+import massage from "../../../media/img/recovery_plan/on_site/massages/img4.jpg"
 import shirodhara from "../../../media/img/recovery_plan/on_site/Shirodhara1.jpg"
 import acupuncture from "../../../media/img/recovery_plan/on_site/acupuncture.jpg"
 

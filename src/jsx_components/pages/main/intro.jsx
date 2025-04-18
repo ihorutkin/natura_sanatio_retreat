@@ -5,14 +5,10 @@ import introVideo from "../../../media/video/13234027-uhd_3840_2160_30fps.mp4"
 import "../../../styles/pages/main/intro.css"
 import { Link } from "react-router-dom";
 import SeeMoreBtn from "../../buttons/seeMore";
+import { scrollToSection } from "../../../utils/scroll"
+
 
 export default function Intro(){
-    const scrollToSection = (sectionId) => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
 
     return(
         <section className="intro_container">

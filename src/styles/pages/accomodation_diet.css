@@ -108,8 +108,9 @@
     margin: 4rem auto;
     max-width: 1400px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     padding: 0 2rem;
 }
@@ -117,23 +118,91 @@
 .accomodation_content{
     flex-basis: 50%;
     flex: 1 1 400px;
+    text-align: center;
 }
 
-.accomodation_content > h2{
+.accomodation_content > ul > li{
+    line-height: 2;
+    list-style: none;
+}
+
+.accomodation_overview > h2{
     font-family: "Rufina", serif;
     font-size: 46px;
-    /* line-height: 0; */
+    text-align: center;
     margin: 4rem 0;
+}
+
+.accomodation_overview > p{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.accomodation_overview_coontent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .accomodation_img{
     flex-basis: 50%;
-    background-image: url("../../media/img/accomodation/accomodation/accomodation1.PNG");
-    background-size: cover;
-    background-position: center;
     height: 500px;
     flex: 1 1 400px;
 }
+
+.swiper {
+    width: 400px;
+    /* height: 320px; */
+    background: transparent;
+}
+  
+.swiper-slide {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide:nth-child(1n) {
+    background-image: url("../../media/img/accomodation/accomodation/img1.PNG")
+}
+  
+.swiper-slide:nth-child(2n) {
+    background-image: url("../../media/img/accomodation/accomodation/img2.PNG")
+}
+  
+.swiper-slide:nth-child(3n) {
+    background-image: url("../../media/img/accomodation/accomodation/img3.PNG")
+}
+  
+.swiper-slide:nth-child(4n) {
+    background-image: url("../../media/img/accomodation/accomodation/img4.PNG")
+}
+  
+.swiper-slide:nth-child(5n) {
+    background-image: url("../../media/img/accomodation/accomodation/img5.JPG")
+}
+  
+.swiper-slide:nth-child(6n) {
+    background-image: url("../../media/img/accomodation/accomodation/img6.JPG")
+}
+  
+.swiper-slide:nth-child(7n) {
+    background-image: url("../../media/img/accomodation/accomodation/img7.PNG")
+}
+
 
 /* Residence */
 

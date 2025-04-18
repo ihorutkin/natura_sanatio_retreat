@@ -10,8 +10,8 @@ export default function OnlineProgramPage() {
     const closeModal = () => setActiveModal(null);
 
     return (
-        <Layout>
-            <section className="online_container">
+        // <Layout>
+            <section className="online_container" id="online_program">
                 <h2 data-aos="fade-up" data-aos-duration="600">ONLINE PROGRAM</h2>
                 <p data-aos="fade-up" data-aos-duration="1000">Complex of personalized analizes by</p>
                 <article className="online_plan">
@@ -85,6 +85,6 @@ export default function OnlineProgramPage() {
                     </div>
                 </article>
             </section>
-        </Layout>
+        // </Layout>
     );
 }

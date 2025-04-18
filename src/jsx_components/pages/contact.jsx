@@ -85,10 +85,11 @@ const ContactForm = () => {
         );
     };
     return (
-        <Layout>
-            <section className="contact_container">
+        // <Layout>
+            <section className="contact_container" id="contact">
+                {/* <h2>Contact with us</h2> */}
                 <div style={{ maxWidth: "600px", margin: "8rem auto 4rem auto", padding: "20px", border: "1px solid #ccc", borderRadius: "10px", boxShadow: "0 4px 8px rgba(0,0,0,0.1)" }}>
-                    <h2 style={{ textAlign: "center" }}>Contact with us</h2>
+                    <h2 style={{ textAlign: "center", fontSize: '40px' }}>Contact with us</h2>
                     <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                         <input
                             name="firstName"
@@ -156,7 +157,7 @@ const ContactForm = () => {
                     </iframe>
                 </div>
             </section>
-        </Layout>
+        /* </Layout> */
     );
 };
 

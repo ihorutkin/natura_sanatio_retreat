@@ -8,6 +8,12 @@
     justify-content: center;
 }
 
+/* .contact_container > h2{
+    font-family: "Rufina", serif;
+    font-size: 46px;
+    text-align: center;
+} */
+
 .inputBox{
     padding: 8rem 2rem 2rem 0;
 }

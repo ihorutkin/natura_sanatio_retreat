@@ -1,17 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { scrollToSection } from "../../utils/scroll"
 
 import "../../styles/layout/header.css";
 
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
-
-    const scrollToSection = (sectionId) => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
 
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
@@ -24,18 +18,16 @@ export default function Header() {
                         <Link to={"/"} className="header_link">home</Link>
                     </li>
                     <li className="menu_item">
-                        <Link to={"/recovery_plan"} className="header_link">recovery plan</Link>
-                        <ul className="submenu">
-                            <li className="submenu_item">
-                                <Link to={"/online_program"} className="header_link submenu_link">Online</Link>
-                            </li>
-                            <li className="submenu_item">
-                                <Link to={"/on-site_program"} className="header_link submenu_link">On-site</Link>
-                            </li>
-                        </ul>
+                        <Link onClick={() => scrollToSection('about')} className="header_link">about</Link>
                     </li>
                     <li className="menu_item">
-                        <Link to={"/accomodation_and_diet"} className="header_link">accommodation and diet</Link>
+                        <Link onClick={() => scrollToSection('accomodation_and_diet')} className="header_link">accommodation and diet</Link>
+                    </li>
+                    <li className="menu_item">
+                        <Link onClick={() => scrollToSection('online_program')} className="header_link">Online</Link>
+                    </li>
+                    <li className="menu_item">
+                        <Link onClick={() => scrollToSection('onsite_program')} className="header_link">On-site</Link>
                     </li>
                     <li className="menu_item">
                         <Link to={"/main_nsr_team"} className="header_link">main NSR team</Link>
@@ -44,12 +36,12 @@ export default function Header() {
                 <div className="header_contact">
                     <div className="header_contact_block">
                         <div className="header_call"></div>
-                        <Link to={"/contact"} className="header_contact_link">Contact</Link>
+                        <Link onClick={() => scrollToSection('contact')} className="header_contact_link">Contact</Link>
                     </div>
-                    <div className="header_lang_block">
+                    {/* <div className="header_lang_block">
                         <div className="header_lang_switch"></div>
                         <div className="header_lang">EN</div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className={`menu_toggle ${menuOpen ? "active" : ""}`} onClick={toggleMenu}>
                     <div></div>
