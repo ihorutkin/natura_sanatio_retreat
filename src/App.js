@@ -7,10 +7,6 @@ import AccomodationAndDietPage from "./jsx_components/pages/accomodation_diet"
 import MainNSRTeamPage from "./jsx_components/pages/main_nsr_team"
 import OnlineProgramPage from "./jsx_components/pages/online_programs"
 import OnSiteProgramPage from "./jsx_components/pages/on_site_proram"
-import Maryana from './jsx_components/pages/main_nsr_team/maryana';
-import Valentyna from './jsx_components/pages/main_nsr_team/valentyna';
-import Prasad from './jsx_components/pages/main_nsr_team/prasad';
-import Artemyi from './jsx_components/pages/main_nsr_team/artemyi';
 import ContactForm from './jsx_components/pages/contact';
 import AOS from "aos"
 import "aos/dist/aos.css";
@@ -22,6 +18,11 @@ function App() {
       AOS.init();
     }, 200);
   }, [location]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <Routes>
       <Route
@@ -51,22 +52,6 @@ function App() {
       <Route
         path='/contact'
         element={<ContactForm />}
-      />
-      <Route
-        path='/main_nsr_team/maryana'
-        element={<Maryana />}
-      />
-      <Route
-        path='/main_nsr_team/valentyna'
-        element={<Valentyna />}
-      />
-      <Route
-        path='/main_nsr_team/prasad'
-        element={<Prasad />}
-      />
-      <Route
-        path='/main_nsr_team/artemyi'
-        element={<Artemyi />}
       />
     </Routes>
   );

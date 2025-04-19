@@ -114,6 +114,10 @@
     background-size: cover;
 }
 
+.hide{
+    display: none;
+}
+
 @media (max-width: 900px) {
     .header_nav_lang {
         flex-direction: row;

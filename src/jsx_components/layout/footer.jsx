@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { scrollToSection } from "../../utils/scroll"
+import { scrollToSection } from "../../utils/utils"
 
 import "../../styles/layout/footer.css"
 
