@@ -166,3 +166,30 @@
         font-size: 12px;
     }
 }
+
+@media (max-width: 768px){
+    .maryana{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .valentyna{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .prasad{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .artemyi{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .essam{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
