@@ -6,7 +6,7 @@ export default function About(){
     return(
         <section className="about" id="about">
             <div className="about_container">
-                <h2>About</h2>
+                <h2>Who we are</h2>
                 <p className="about_subtitle">Natura Sanatio Retreat is more than just a place to unwind — it is a sanctuary for the soul, a haven where the noise of the outside world fades away, and where your journey toward inner peace and renewal truly begins.</p>
                 <div className="about_block">
                     <article className="about_content">
