@@ -17,7 +17,6 @@ export default function Footer(){
                     <Link to={"/"} className="footer_link">home</Link>
                     <Link onClick={() => scrollToSection('about')} className="footer_link">about</Link>
                     <Link onClick={() => scrollToSection('accomodation_and_diet')} className="footer_link">accommodation and diet</Link>
-                    <Link onClick={() => scrollToSection('online_program')} className="footer_link">Online</Link>
                     <Link onClick={() => scrollToSection('onsite_program')} className="footer_link">On-site</Link>
                     <Link to={"/main_nsr_team"} className="footer_link">main NSR team</Link>
                 </nav>

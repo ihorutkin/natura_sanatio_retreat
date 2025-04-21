@@ -8,18 +8,20 @@ import 'swiper/css/pagination';
 
 import "../../../styles/pages/accomodation/residence_overview.css"
 
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 import residence1 from "../../../media/img/accomodation/residence_overview/residence1.JPG"
 import residence2 from "../../../media/img/accomodation/residence_overview/residence2.JPG"
 import residence3 from "../../../media/img/accomodation/residence_overview/residence3.JPG"
 import residence4 from "../../../media/img/accomodation/residence_overview/residence4.JPG"
-import residence5 from "../../../media/img/accomodation/residence_overview/residence5.PNG"
-import residence6 from "../../../media/img/accomodation/residence_overview/residence6.PNG"
-import residence7 from "../../../media/img/accomodation/residence_overview/residence7.PNG"
+import residence5 from "../../../media/img/accomodation/residence_overview/residence5.JPG"
+import residence6 from "../../../media/img/accomodation/residence_overview/residence6.JPG"
+import residence7 from "../../../media/img/accomodation/residence_overview/residence7.JPG"
 import residence8 from "../../../media/img/accomodation/residence_overview/residence8.PNG"
-import residence9 from "../../../media/img/accomodation/residence_overview/residence9.PNG"
-import residence10 from "../../../media/img/accomodation/residence_overview/residence10.PNG"
+import residence9 from "../../../media/img/accomodation/residence_overview/residence9.JPG"
+import residence10 from "../../../media/img/accomodation/residence_overview/residence10.JPG"
+import residence11 from "../../../media/img/accomodation/residence_overview/residence11.PNG"
+import residence12 from "../../../media/img/accomodation/residence_overview/residence12.JPG"
 
 
 export default function ResidenceSlider(){
@@ -39,8 +41,9 @@ export default function ResidenceSlider(){
                 }}
                 loop={true}
                 initialSlide={2}
+                navigation={true}
                 // pagination={true}
-                modules={[EffectCoverflow, Pagination]}
+                modules={[EffectCoverflow, Pagination, Navigation]}
                 className="mySwiper"
             >
                 <SwiperSlide>
@@ -72,6 +75,12 @@ export default function ResidenceSlider(){
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={residence10} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={residence11} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={residence12} />
                 </SwiperSlide>
             </Swiper>
         </div>

@@ -50,11 +50,14 @@
 }
 
 .about_content > p{
-    text-align: justify;
-    flex-basis: 45%;
+    text-align: center;
     padding: 1rem 1rem 1rem 0;
     line-height: 1.5rem;
     flex: 1 1 300px;
+}
+
+.about_content > p > span {
+    font-weight: bold;
 }
 
 .about_nsr{

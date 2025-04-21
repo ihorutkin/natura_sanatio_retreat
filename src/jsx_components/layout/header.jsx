@@ -42,14 +42,6 @@ export default function Header() {
                     </li>
                     <li className={ hide('#/main_nsr_team') }>
                         <Link 
-                            onClick={() => scrollToSection('online_program')} 
-                            className='header_link'
-                        >
-                            Online
-                        </Link>
-                    </li>
-                    <li className={ hide('#/main_nsr_team') }>
-                        <Link 
                             onClick={() => scrollToSection('onsite_program')} 
                             className='header_link'
                         >

@@ -69,7 +69,7 @@ export default function MainNSRTeamPage(){
                 </article> */}
                 <article className="team_container">
                     <h2>Founder of NSR</h2>
-                    <p className="teammate_position">B.S. Cosmetology, KAAFM Medicine and Health Science</p>
+                    <p className="teammate_position">B.Sс Cosmetology, KAAFM Medicine and Health Science</p>
                     <div className="team_block lead" id="valentyna">
                         <div className="teammate_text">
                             Founder of NSR, with a higher education in medical sciences
@@ -77,26 +77,30 @@ export default function MainNSRTeamPage(){
                             integrative approaches in holistic problem-solving for human well-being
                             <div>
                             <ul>
-                                <li style={{listStyle: "none", marginTop: "1rem"}}>
+                                {/* <li style={{listStyle: "none", marginTop: "1rem"}}>
                                     <span style={{fontWeight: "bold"}}>Advanced Cosmetology – Poland, Kuwait, Ukraine, Sri Lanka:</span> Skin regeneration, anti-aging treatments, and psychodermatology.
                                 </li>
                                 <li style={{listStyle: "none", marginTop: "1rem"}}>
                                     <span style={{fontWeight: "bold"}}>Retreat Therapist – AAHSL (Ayurvedic Hospital, Sri Lanka):</span> Holistic body-mind reset, detox therapies, and integrative medicine.
-                                </li>
+                                </li> */}
                                 <li style={{listStyle: "none", marginTop: "1rem"}}>
-                                    <span style={{fontWeight: "bold"}}>Specialized Fields:</span> Cosmetic science, aesthetic dermatology, psychotherapy, neurobiology, and mind-body reset techniques.
+                                    <span style={{fontWeight: "bold"}}>Specialized Fields:</span> cosmetic science, skin treatment, physiotherapy, natural medicine
                                 </li>
                             </ul>
-                            Bridging medicine, psychotherapy, and natural therapies to create personalized, globally recognized well-being solutions.
+                                <p>"The tendency to create two new problems while trying to solve one, the harmful side effects, and the closed 
+                                loop of treatments I witnessed throughout my career in the pharmaceutical and medical industries led me to 
+                                seek truly effective and safe solutions for human well-being.
+                                I believe in the synergy of modern and ancient sciences to achieve optimal results. Natura Sanatio Retreat 
+                                is a safe space created for those who seek natural solutions and understand the vital importance of harmony 
+                                between humans and nature."</p>
                             </div>
                             <div>
-                                <p><span>Specialization in:</span> cosmetic science, aestetic dermatology, psychotherapy, mind&body reset</p>
                             </div>
                         </div>
                         <div className="teammate_content">
                             <div className="teammate_img valentyna"></div>
                             <div className="teammate_title">
-                                <p className="teammate_name">Valentyna Smyi</p>
+                                <p className="teammate_name">Valentyna Smiy</p>
                             </div>
                         </div>
                     </div>

@@ -114,6 +114,10 @@
     min-width: 300px;
 }
 
+.teammate_text > div > p{
+    font-style: italic;
+}
+
 .teammate_text > div > p > span{
     font-weight: bold;
 }

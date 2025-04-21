@@ -122,7 +122,7 @@ export default function AccomodationAndDietPage(){
                 </div>
             </article>
             <article className='residence_overview'>
-                <h2>Residence overview</h2>
+                {/* <h2>Residence overview</h2> */}
                 <p>The place we are in and our surroundings directly impact our overall
                 well-being. Complete isolation from city noise, fresh clean air, birdsongs, 
                 and the sound of water amidst lush jungles - this is what awaits you in our 

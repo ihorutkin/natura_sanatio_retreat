@@ -19,9 +19,27 @@ export default function MainPage(){
                 <About />
                 <WhatWeOffer />
                 <AccomodationAndDietPage />
-                <OnlineProgramPage />
+                {/* <OnlineProgramPage /> */}
                 <OnSiteProgramPage />
                 <ContactForm />
+                <article className="online_plan_additionaly">
+                    <div className="online_plan_item_add">
+                        <div className="online_plan_add_logo fitness"></div>
+                        <p>Personal home fitness exercises programs</p>
+                    </div>
+                    <div className="online_plan_item_add">
+                        <div className="online_plan_add_logo medical"></div>
+                        <p>Holistic Medications prescription</p>
+                    </div>
+                    <div className="online_plan_item_add">
+                        <div className="online_plan_add_logo test"></div>
+                        <p>Psychological tests for type of personality</p>
+                    </div>
+                    <div className="online_plan_item_add">
+                        <div className="online_plan_add_logo mind_coaching"></div>
+                        <p>Pre-post-program individual mind-coaching</p>
+                    </div>
+                </article>
             </Layout>
         </div>
     )

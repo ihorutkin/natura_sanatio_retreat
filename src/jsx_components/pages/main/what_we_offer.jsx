@@ -10,11 +10,31 @@ export default function WhatWeOffer(){
                     <article className="offers_text_block">
                         <div className="offers_title" data-aos="fade-left" data-aos-duration="1000">
                             <h2>What we offer</h2>
-                            <p>Get your first step for new life with us!</p>
+                            {/* <p>Get your first step for new life with us!</p> */}
                         </div>
                         <div className="packages_container">
 
-                            <div className="package_item">
+                            <div className="package_item basic_packege">
+                                <p class="package_title">Basic Retreat (5 Days)</p>
+                                <ul>
+                                    <li>Accommodation – a private villa with an isolated, suprariverine balcony</li>
+                                    <li>Diet – enjoy healthy organic meals twice a day (we accommodate all dietary needs: vegan, vegetarian, pescetarian, etc.)</li>
+                                    <li>Massage Therapy – daily treatments to restore your physical body and energy flow</li>
+                                    <li>Yoga – daily sessions</li>
+                                    <li>Meditation – daily, following the Vipassana tradition</li>
+                                </ul>
+                                <p style={{fontWeight: 'bold', textAlign: 'center'}}>Expected Results:</p>
+                                <ul>
+                                    <li>Full mental, physical, and spiritual recharge</li>
+                                    <li>Improvement in general health</li>
+                                    <li>Normalization of digestion and potential weight balance</li>
+                                    <li>Increased mobility</li>
+                                    <li>Acquisition of practical knowledge and self-care skills</li>
+                                    <li>A sense of harmony with yourself and the world</li>
+                                </ul>
+                            </div>
+
+                            <div className="package_item reast_and_joy_package">
                                 <p class="package_title">Rest & Joy (5 Days)</p>
                                 <ul>
                                     <li>Accommodation</li>
@@ -35,7 +55,7 @@ export default function WhatWeOffer(){
                                 </ul>
                             </div>
 
-                            <div className="package_item">
+                            <div className="package_item full_package">
                                 <p class="package_title">Full Experience (7 Days)</p>
                                 <p style={{fontWeight: 'bold', textAlign: 'center'}}>Online Preparation:</p>
                                 <ul>
@@ -58,28 +78,12 @@ export default function WhatWeOffer(){
                                 </ul>
                             </div>
 
-                            <div className="package_item">
-                                <p class="package_title">Basic Retreat (5 Days)</p>
-                                <ul>
-                                    <li>Accommodation – a private villa with an isolated, suprariverine balcony</li>
-                                    <li>Diet – enjoy healthy organic meals twice a day (we accommodate all dietary needs: vegan, vegetarian, pescetarian, etc.)</li>
-                                    <li>Massage Therapy – daily treatments to restore your physical body and energy flow</li>
-                                    <li>Yoga – daily sessions</li>
-                                    <li>Meditation – daily, following the Vipassana tradition</li>
-                                </ul>
-                                <p style={{fontWeight: 'bold', textAlign: 'center'}}>Expected Results:</p>
-                                <ul>
-                                    <li>Full mental, physical, and spiritual recharge</li>
-                                    <li>Improvement in general health</li>
-                                    <li>Normalization of digestion and potential weight balance</li>
-                                    <li>Increased mobility</li>
-                                    <li>Acquisition of practical knowledge and self-care skills</li>
-                                    <li>A sense of harmony with yourself and the world</li>
-                                </ul>
+                            <div className="package_item custom_package">
+                                <p class="package_title">Create Your Own Retreat</p>
+                                <p style={{ fontSize: '24px', textAlign: 'center' }}>Customize your experience according to your personal needs and desires.</p>
                             </div>
 
                         </div>
-
                     </article>
                 </div>
             </div>
