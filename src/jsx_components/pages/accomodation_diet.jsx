@@ -1,10 +1,7 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards, Autoplay } from 'swiper/modules';
 
-import Layout from "../layout/layout"
-import SeeMoreBtn from '../buttons/seeMore';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -16,62 +13,10 @@ import FoodSlider from './accomodation_diet/food_slider';
 
 
 export default function AccomodationAndDietPage(){
-    const [animationClass, setAnimationClass] = useState("");
-
-    const handleSlideChange = () => {
-        setTimeout(() => {
-            setAnimationClass("fadeIn");
-        }, 10);
-        setAnimationClass("");
-    };
+    const swiperRef = useRef(null);
 
     return(
         <>
-            {/* <Swiper
-                navigation={true}
-                modules={[Navigation, Autoplay]}
-                className="mySwiper"
-                onSlideChange={handleSlideChange}
-                loop={true}
-                autoplay={{
-                    delay: 7000,
-                    disableOnInteraction: false,
-                }}
-            >
-                <SwiperSlide>
-                    <div className='slide slide1'>
-                        <div className="content">
-                            <h2 className={`${animationClass}`}>ACCOMODATION</h2>
-                            <Link 
-                                className="see_more_btn"
-                                to="#accomodation_overview"
-                                onClick={() => scrollToSection('accomodation_overview')}
-                            >
-                                <SeeMoreBtn>
-                                    SEE MORE
-                                </SeeMoreBtn>
-                            </Link>
-                        </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                    <div className='slide slide3'>
-                        <div className="content">
-                            <h2 className={`${animationClass}`}>FOOD</h2>
-                            <Link 
-                                className="see_more_btn"
-                                to="#food"
-                                onClick={() => scrollToSection('food')}
-                            >
-                                <SeeMoreBtn>
-                                    SEE MORE
-                                </SeeMoreBtn>
-                            </Link>
-                        </div>
-                    </div>
-                </SwiperSlide>
-            </Swiper> */}
             <article className='accomodation_overview' id='accomodation_and_diet'>
                 <h2>Overview of accomodation</h2>
                 <p>Peaceful jungle villas, fully isolated from external noise. 
@@ -98,13 +43,20 @@ export default function AccomodationAndDietPage(){
                     </div>
                     <div className='accomodation_img'>
                         <Swiper
-                            effect={'cards'}
+                            effect="cards"
                             grabCursor={true}
                             modules={[EffectCards, Autoplay]}
-                            loop={true}
                             autoplay={{
-                                delay: 7000,
+                                delay: 3000,
                                 disableOnInteraction: false,
+                            }}
+                            onSwiper={(swiper) => (swiperRef.current = swiper)}
+                            onSlideChange={(swiper) => {
+                                if (swiper.isEnd) {
+                                setTimeout(() => {
+                                    swiper.slideTo(0, 0);
+                                }, 1000);
+                                }
                             }}
                             className="mySwiper"
                         >
@@ -117,6 +69,9 @@ export default function AccomodationAndDietPage(){
                             <SwiperSlide></SwiperSlide>
                             <SwiperSlide></SwiperSlide>
                             <SwiperSlide></SwiperSlide>
+                            <SwiperSlide></SwiperSlide>
+                            <SwiperSlide></SwiperSlide>
+                            <SwiperSlide></SwiperSlide> 
                         </Swiper>
                     </div>
                 </div>

@@ -34,6 +34,14 @@ export default function Header() {
                     </li>
                     <li className={ hide('#/main_nsr_team') }>
                         <Link 
+                            onClick={() => scrollToSection('what_we_offer')}
+                            className='header_link'
+                        >
+                            what we offer
+                        </Link>
+                    </li>
+                    <li className={ hide('#/main_nsr_team') }>
+                        <Link 
                             onClick={() => scrollToSection('accomodation_and_diet')} 
                             className='header_link'
                         >

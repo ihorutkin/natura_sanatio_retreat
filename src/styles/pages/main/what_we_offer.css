@@ -91,6 +91,10 @@
     border-radius: 20px;
 }
 
+.package_item > ul > li > span{
+    font-weight: bold;
+}
+
 .basic_packege{
     background-image: url('../../../media/img/packages/basic.JPG');
 }
