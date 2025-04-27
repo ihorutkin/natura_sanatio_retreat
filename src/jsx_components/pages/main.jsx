@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "../layout/layout";
 
 import Intro from "./main/intro";
@@ -10,7 +10,27 @@ import AccomodationAndDietPage from "./accomodation_diet";
 import NaturaSanatio from "./main/sri_lanka";
 import ContactForm from "./contact";
 
+import { Link, useNavigate, useLocation } from "react-router-dom";
+import { scrollToSection } from "../../utils/utils";
+
 export default function MainPage(){
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (location.state?.scrollTo) {
+            const sectionId = location.state.scrollTo;
+
+            // Скроллим к нужной секции
+            setTimeout(() => {
+                scrollToSection(sectionId);
+            }, 100);
+
+            // Очищаем состояние чтобы избежать повторного скролла
+            navigate(location.pathname, { replace: true, state: {} });
+        }
+    }, [location, navigate]);
+
     return(
         <div style={{ overflow: "hidden"}}>
             <Layout>
