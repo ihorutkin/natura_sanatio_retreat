@@ -8,6 +8,10 @@
     justify-content: center;
 }
 
+.agree_checkbox{
+    display: flex;
+}
+
 /* .contact_container > h2{
     font-family: "Rufina", serif;
     font-size: 46px;

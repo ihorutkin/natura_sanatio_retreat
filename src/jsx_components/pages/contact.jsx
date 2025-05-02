@@ -141,6 +141,10 @@ const ContactForm = () => {
                                 </select>
                             </div>
                         ))}
+                        <div className="agree_checkbox">
+                            <input type="checkbox" required />
+                            <p>I have read and agreed to the Terms and Conditions</p>
+                        </div>
 
                         <button type="submit" style={{ padding: "12px", background: "#007bff", color: "white", border: "none", cursor: "pointer", borderRadius: "5px" }}>
                             Send
